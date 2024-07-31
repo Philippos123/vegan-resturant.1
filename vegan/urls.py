@@ -1,9 +1,8 @@
 from django.contrib import admin
-from django.urls import path
-from resturant.views import my_resturant
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('resturant/', my_resturant, name='resturant'),
+    path("", include("resturant.urls"), name="resturant-urls"),
 
 ]
