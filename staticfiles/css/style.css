@@ -1,161 +1,120 @@
 body {
-    background-color: #F9FAFC;
+    background-color: #F5F5DC; /* Beige eller annan krämig färg */
+    color: #333333; /* Mörkgrå textfärg */
+    margin: 0;
+    padding: 0;
 }
 
-.brand {
-    font-family: Lato, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #4A4A4F;
+h1, p{
+    color: #333333;
+    text-align: center;
 }
 
-.red-o {
-    color: #E84610;
+.content-container{
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+
 }
 
-.thin {
-    font-weight: 300;
+.banner {
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/plant-pottingshed-4.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.light-bg {
-    background-color: #fff;
+.jumbotron {
+    background: none;
+    height: 20%;
 }
 
-.dark-bg {
-    background-color: #445261;
+.container-fluid {
+    color: white;
 }
 
-.main-bg {
-    background-color: #F9FAFC;
-}
 
-.card {
-    border: none;
-    background-color: transparent;
-}
-
-.image-container {
-    position: relative;
-}
-
-.image-flash {
-    position: absolute;
-    bottom: 5%;
-    min-width: 30%;
-    left: -2px;
-    background-color: #188181;
-}
-
-.scale {
-    width: 100%;
+.img-responsive{
+    max-width: 100%;
+    min-width: 60%;
+    max-height: 200px; 
     height: auto;
 }
 
-.author {
-    color: white;
-    margin: 4px;
-    text-transform: uppercase;
+.news-header{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-size: 52px;
 }
 
-.masthead {
-    margin-top: 10px;
+.news-post {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: auto;
+    padding-top: 20px; 
+    padding-left: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
+    margin-left: 25%;
+}
+
+
+.about-us{
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.about-us-container{
+
+    background-image: url('../images/kockar-med-eld.jpg');
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
-    position: relative;
-    display: inline-block;
-    height: 33vh;
-    width: 100%;
+    margin: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
 }
 
-.masthead-text {
-    background-color: #445261;
-    color: white;
-    position: relative;
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
 
-.masthead-image {
-    position: relative;
-    overflow: hidden;
+
+.info-list, h3{
+    font-size: 42px;
+    padding-top: 30px;
+    font-weight: 700;
+    color: rgb(161, 125, 71);
 }
 
-.masthead-image:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 90%;
-    height: 100%;
-    width: 150%;
-    background: #445261;
-    -webkit-transform: skew(15deg);
-    -moz-transform: skew(15deg);
-    transform: skew(15deg);
-    z-index: 100;
+.info-list, p {
+    font-weight: 400;
+    font-size: medium;
+    color: black;
 }
 
-.post-link {
-    text-decoration: none;
-    color: #445261;
+.thick-font{
+    font-weight: 700;
+
 }
 
-.post-link:hover,
-.page-link {
-    color: #E84610;
-}
-
-.post-title {
-    margin-top: 10%;
-    margin-left: 5%;
-}
-
-.post-subtitle {
-    margin-left: 5%;
-    color: lightgray;
-}
-
-.btn-signup,
-.btn-edit {
-    background-color: #188181;
-    color: #fff;
-}
-
-.btn-signup:hover,
-.btn-signup:active {
-    background-color: #fff;
-    color: #23BBBB;
-}
-
-.link {
-    color: #23BBBB;
-    text-decoration: none;
-}
-
-.link:hover,
-.link:active {
-    color: #445261;
-    text-decoration: underline;
-}
-
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
-
-.btn-delete {
-    color: #fff;
-    background: #E84610;
-}
-
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
-}
-
-.faded {
-    color: rgb(172, 175, 175);
-}
-
-.approval {
-    color: rgb(222, 146, 168);
+.info-text{
+    
+    margin-bottom: 30px;
+    text-align: left;
 }
