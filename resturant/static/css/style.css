@@ -128,7 +128,11 @@ h1, p{
     box-shadow: 3px 4px 2px 2px gray;
 }
 
-.info-list, p{
+.lead {
+    text-align: center;
+}
+
+p{
     text-align: left;
 }
 
