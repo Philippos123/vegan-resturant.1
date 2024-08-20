@@ -1,5 +1,5 @@
 from django.forms import ModelForm
-from .models import Customer
+from .models import Customer, News
 from django import forms
 
 class CustomerForm(forms.ModelForm):

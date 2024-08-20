@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import generic
 from .models import Post
+from .models import News
 
 
 
@@ -33,3 +34,9 @@ def post_detail(request, slug):
         "blog/post_detail.html",
         {"post": post},
     )
+
+
+
+def home(request):
+    news_list = News.objects.all()
+    return render(request, 'index.html', {'news_list': news_list})
