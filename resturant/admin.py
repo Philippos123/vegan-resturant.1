@@ -1,6 +1,4 @@
 from django.contrib import admin
-from .models import Post
-from .models import Comment
 from .models import Customer, News
 from django_summernote.admin import SummernoteModelAdmin
 
@@ -14,14 +12,6 @@ class NewsAdmin(admin.ModelAdmin):
         # Custom logic can be added here if needed before saving the object
         super().save_model(request, obj, form, change)
 
-@admin.register(Post)
-class PostAdmin(SummernoteModelAdmin):
-
-    list_display = ('title', 'slug', 'status')
-    search_fields = ['title']
-    list_filter = ('status',)
-    prepopulated_fields = {'slug': ('title',)}
-    summernote_fields = ('content',)
 
 admin.site.register(News)
 class CustomerAdmin(admin.ModelAdmin):

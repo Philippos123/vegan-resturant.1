@@ -1,0 +1,14 @@
+{% extends "resturant/base.html" %} {% block title %} Home Page {% endblock %}
+{% block content %}
+<br>
+<div class="containter" style="width: 500px;">
+    <h2>Booking</h2>
+    <br>
+    <form action="" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Book">
+    </form>
+</div>
+
+
+{% endblock %}

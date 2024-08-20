@@ -7,6 +7,8 @@ urlpatterns = [
     path('', views.index, name="index"),
     path('news/', views.news_list, name='news_list'),
     path('accounts/', include('allauth.urls')),
+    path('booking/', views.book, name="book"),
+
 
 
 ]
