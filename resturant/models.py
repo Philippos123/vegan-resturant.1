@@ -56,13 +56,13 @@ def news_image_path(instance, filename):
     # Generate a unique filename based on the post's title
     ext = filename.split('.')[-1]  # Get the file extension
     filename = f"{instance.title.replace(' ', '_')}_image.{ext}"
-    return os.path.join('news_images', filename)
+    return os.path.join('resturant/static/images/news_images', filename)
 
     logger = logging.getLogger(__name__)
     logger.info(f"Instance title: {instance.title}")
     logger.info(f"Generated filename: {filename}")
 
-    return os.path.join('news_images', filename)
+    return os.path.join('resturant/static/images/news_images', filename)
 
 class News(models.Model):
     title = models.CharField(max_length=200)
