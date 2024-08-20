@@ -1,5 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
+import os
+import logging
 
 STATUS = ((0, "Draft"), (1, "Published"))
 
@@ -38,4 +40,15 @@ class Comment(models.Model):
     def __str__(self):
         return f"Comment {self.body} by {self.author}"
 
+
+class Customer(models.Model):
+    first_name = models.CharField(max_length=200)
+    last_name = models.CharField(max_length=200)
+    email =models.CharField(max_length=200, default="")
+    booking_date = models.DateField()
+    booking_time = models.TimeField()
+    number_of_people = models.IntegerField(default=0)
+
+    def __str__(self):
+        return self.first_name + ' ' + self.last_name
 
