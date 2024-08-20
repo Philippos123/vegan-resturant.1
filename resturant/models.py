@@ -3,6 +3,9 @@ from django.contrib.auth.models import User
 import os
 import logging
 
+from django.core.exceptions import ValidationError
+from django.utils import timezone
+
 STATUS = ((0, "Draft"), (1, "Published"))
 
 # Create your models here.
@@ -21,16 +24,14 @@ class Customer(models.Model):
         return self.first_name + ' ' + self.last_name
 
 def news_image_path(instance, filename):
-    # Generate a unique filename based on the post's title
     ext = filename.split('.')[-1]  # Get the file extension
     filename = f"{instance.title.replace(' ', '_')}_image.{ext}"
-    return os.path.join('resturant/static/images/news_images', filename)
 
     logger = logging.getLogger(__name__)
     logger.info(f"Instance title: {instance.title}")
     logger.info(f"Generated filename: {filename}")
 
-    return os.path.join('resturant/static/images/news_images', filename)
+    return os.path.join('news_images', filename)
 
 class News(models.Model):
     title = models.CharField(max_length=200)
@@ -43,4 +44,5 @@ class News(models.Model):
 
     def __str__(self):
         return self.title
+
 

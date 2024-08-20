@@ -1,14 +1,22 @@
-{% extends "resturant/base.html" %} {% block title %} Home Page {% endblock %}
+{% extends "resturant/base.html" %}
+
 {% block content %}
-<br>
-<div class="containter" style="width: 500px;">
-    <h2>Booking</h2>
-    <br>
-    <form action="" method="post">
+    <h1 class="book-head">Book a Table</h1>
+
+    <!-- Display success or error messages -->
+    {% if messages %}
+        <div class="messages">
+            {% for message in messages %}
+                <div class="message {{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <form method="post" class="book-form">
         {% csrf_token %}
-        <input type="submit" value="Book">
+        {{ form.as_p }}
+        <button type="submit">Book Now</button>
     </form>
-</div>
-
-
 {% endblock %}
