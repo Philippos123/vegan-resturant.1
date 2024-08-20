@@ -18,6 +18,10 @@ h1, p{
 
 }
 
+.navbar-brand{
+    margin-left: 20px;
+}
+
 .banner {
     height: 200px;
     overflow: hidden;
@@ -117,4 +121,40 @@ h1, p{
     
     margin-bottom: 30px;
     text-align: left;
+}
+
+.btn {
+    background-color: white;
+    box-shadow: 3px 4px 2px 2px gray;
+}
+
+.info-list, p{
+    text-align: left;
+}
+
+.container1{
+    box-shadow: 7px 4px 5px 5px gray;
+    padding-bottom: 50px;
+}
+
+.sell-pitch{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sign-up{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+}
+
+.signup{
+    box-shadow: 7px 4px 5px 5px gray;
+    padding-bottom: 50px;
+    padding: 15px;
+}
+
+.account-r{
+    padding-top: 30px;
 }
