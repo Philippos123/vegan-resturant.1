@@ -1,10 +1,11 @@
-{% extends "restaurant/base.html" %}
+{% extends "resturant/base.html" %} 
 
-{% block title %}Nyhetslista{% endblock %}
-
+{% block title %}News list{% endblock %}
+{{ post.content | safe }}
 {% block content %}
+
   <div class="container">
-    <h1>Nyhetslista</h1>
+    <h1>News list </h1>
 
     {% for news in news_list %}
     <div class="news-item">
@@ -16,8 +17,8 @@
         <p>No image available</p>
       {% endif %}
       
-      <p class="pub-date">Publicerad den: {{ news.created_at }}</p>
-      <p>{{ news.content }}</p>
+      <p class="pub-date">Publicerad den: {{ NewsAdmin.created_at }}</p>
+      <p>{{ NewsAdmin.content }}</p>
     </div>
   {% endfor %}
   </div>

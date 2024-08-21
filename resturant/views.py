@@ -7,14 +7,20 @@ from .models import News
 from django.contrib import messages
 
 def index(request):
-    return render(request, 'resturant/index.html')
+    news_list = News.objects.all().order_by('-created_at')
+    return render(request, 'resturant/index.html', {'news_list': news_list})
 
 def home(request):
     return render(request,"index.html")
 
 def news(request):
-    news_list = News.objects.all().order_by('-created_at')[:3]  
-    return render(request, 'home.html', {'news_list': news_list})
+    news_list = News.objects.all().order_by('-created_at')
+    print(news_list)
+    return render(request, 'index.html', {'news_list': news_list})
+
+
+    
+
 
 def book(request):
     if request.method == 'POST':
@@ -28,6 +34,7 @@ def book(request):
             
             if not existing_booking:
                 form.save()
+                
                 messages.success(request, 'Your booking has been successfully made!')
                 
             else:
