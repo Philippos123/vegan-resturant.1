@@ -80,7 +80,7 @@ h1, p{
 
 .about-us-container{
 
-    background-image: url('../images/kockar-med-eld.jpg');
+    background-image: url('https://res.cloudinary.com/dhpnihgnt/image/upload/v1724408891/static/images/kockar-med-eld.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;
