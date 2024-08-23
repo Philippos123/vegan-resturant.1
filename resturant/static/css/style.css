@@ -4,12 +4,13 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/* CSS FOR TEXT */
 h1, p{
     color: #333333;
     text-align: center;
 }
 
+/* Border for index */
 .content-container{
     background-color: whitesmoke;
     box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 20%);
@@ -17,11 +18,11 @@ h1, p{
     flex-direction: column;
 
 }
-
+/* NAVBAR */
 .navbar-brand{
     margin-left: 20px;
 }
-
+/* Top image  */
 .banner{
     height: 200px;
     overflow: hidden;
@@ -41,7 +42,7 @@ h1, p{
     color: white;
 }
 
-
+/* Img responsiv */
 .img-responsive{
     max-width: 100%;
     min-width: 60%;
@@ -49,23 +50,7 @@ h1, p{
     height: auto;
 }
 
-.news-header{
-    padding-bottom: 10%;
-    padding-top: 10%;
-    font-size: 52px;
-}
-
-.news-post {
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 50%;
-    height: auto;
-    padding-top: 20px; 
-    padding-left: 20px;
-    text-align: center;
-    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 10%);
-    margin-left: 25%;
-}
-
+/* Hero img overlay */
 
 .about-us{
     padding-left: 15%;
@@ -77,6 +62,7 @@ h1, p{
 }
 
 
+/* Hero img  */
 
 .about-us-container{
 
@@ -90,6 +76,8 @@ h1, p{
 
 }
 
+/* About us heading */
+
 .left-about-heading {
     width: 60%;
     float: right;
@@ -98,6 +86,7 @@ h1, p{
     margin-bottom: 50px;
 }
 
+/* Info about us */
 
 .info-list, h3{
     font-size: 42px;
@@ -123,10 +112,12 @@ h1, p{
     text-align: left;
 }
 
+/* Sign in, register and out css */
 .btn {
     background-color: white;
     box-shadow: 3px 4px 2px 2px gray;
 }
+/* text center for sign up, register and out */
 
 .lead {
     text-align: center;
@@ -140,6 +131,7 @@ p{
     box-shadow: 7px 4px 5px 5px gray;
     padding-bottom: 50px;
 }
+/* CTA for login page */
 
 .sell-pitch{
     text-align: center;
@@ -162,6 +154,8 @@ p{
 .account-r{
     padding-top: 30px;
 }
+
+/* BOOKFORM */
 
 .book-head{
     padding-top: 40px;
@@ -211,6 +205,8 @@ p{
     background-color: #0056b3;
 }
 
+
+/* Login and succsess message */
 .messages {
     margin: 20px 20px;
     text-align: center;
@@ -235,18 +231,26 @@ p{
     border: 1px solid #f5c6cb;
 }
 
+/* CSS FOR NEWS LIST */
 
+.news-header{
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-size: 52px;
+}
+
+/* For the hole element */
 .news-item{
     text-align: center;
     margin: 40px;
     border-style: solid;
 }
-
+/* For the news content */
 .news-content{
     text-align: center;
     margin: 40px;
 }
-
+/* For the news img */
 .img-list {
     max-width: 33%; 
     height: auto;    
@@ -254,7 +258,7 @@ p{
     margin-left: auto; 
     margin-right: auto; 
 }
-
+/* For the news title */
 .news-h2{
     margin-top: 15px;
 }

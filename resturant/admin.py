@@ -14,6 +14,8 @@ class NewsAdmin(admin.ModelAdmin):
 
 
 admin.site.register(News)
+
+
 class CustomerAdmin(admin.ModelAdmin):
     list_display = ('first_name', 'last_name', 'booking_date', 'booking_time', 'display_number_of_people')
 
@@ -22,7 +24,5 @@ class CustomerAdmin(admin.ModelAdmin):
 
     display_number_of_people.short_description = 'Number of People'
 
+
 admin.site.register(Customer, CustomerAdmin)
-
-# Register your models here.
-

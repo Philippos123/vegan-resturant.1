@@ -25,13 +25,13 @@
 <div class="content-container">
     <div class="jumbotron jumbotron-fluid" >
         <div class="container-fluid">
-            <h1 class="display-4">Welcome to Our Website</h1>
+            <h1 class="display-4">Welcome to Our Website</h1> <!-- Title -->
             
             <p class="lead">Welcome to Swedish dishes!</p>
         </div>
 
 
-        <div class="about-us-container">
+        <div class="about-us-container"> <!-- hero-img -->
             <div class="about-us">
                 <p style="color: wheat;">Welcome to Swedish Dishes – A Culinary Journey of Swedish Delights!
 
@@ -44,7 +44,7 @@
 
         </div>
 
-        <div class="info-list">
+        <div class="info-list"> <!-- Info list -->
             <ul>
                 <ol>
                     <h3> Our Kitchen: </h3>
@@ -70,14 +70,14 @@
             </ul>
         </div>
         
-        <h1 class="news-header">News!
+        <h1 class="news-header">News! <!-- News list -->
             <hr>
         </h1>
         
         <h1>Nyhetslista</h1>
-    <p>Amount of news: {{ news_list|length }}</p> <!-- Visar antalet objekt i listan -->
 
-{% for news in news_list %}
+
+{% for news in news_list %} <!-- News lsit -->
     <div class="news-item">
         <h2 class="news-h2">{{ news.title }}</h2>
         <p class="news-content">{{ news.content }}</p>

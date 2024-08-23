@@ -9,6 +9,4 @@ urlpatterns = [
     path('news/', views.news, name='news'),
     path('accounts/', include('allauth.urls')),
     path('booking/', views.book, name="book"),
-
-
 ]
