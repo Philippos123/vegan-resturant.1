@@ -27,7 +27,7 @@ h1, p{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-image: url('../images/plant-pottingshed-4.jpg');
+    background-image: url("https://res.cloudinary.com/dhpnihgnt/image/upload/v1724408892/static/images/plant-pottingshed-4.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -80,7 +80,7 @@ h1, p{
 
 .about-us-container{
 
-    background-image: url('../images/kockar-med-eld.jpg');
+    background-image: ('https://res.cloudinary.com/dhpnihgnt/image/upload/v1724408891/static/images/kockar-med-eld.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;

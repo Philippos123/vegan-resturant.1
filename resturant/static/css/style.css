@@ -1,4 +1,4 @@
-body {
+body{
     background-color: #F5F5DC; /* Beige eller annan krämig färg */
     color: #333333; /* Mörkgrå textfärg */
     margin: 0;
@@ -22,12 +22,12 @@ h1, p{
     margin-left: 20px;
 }
 
-.banner {
+.banner{
     height: 200px;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-image: url('../images/plant-pottingshed-4.jpg');
+    background-image: url("https://res.cloudinary.com/dhpnihgnt/image/upload/v1724408892/static/images/plant-pottingshed-4.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -233,4 +233,28 @@ p{
     background-color: #f8d7da;
     color: #721c24;
     border: 1px solid #f5c6cb;
+}
+
+
+.news-item{
+    text-align: center;
+    margin: 40px;
+    border-style: solid;
+}
+
+.news-content{
+    text-align: center;
+    margin: 40px;
+}
+
+.img-list {
+    max-width: 33%; 
+    height: auto;    
+    display: block;  
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.news-h2{
+    margin-top: 15px;
 }
