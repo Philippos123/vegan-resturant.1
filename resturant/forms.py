@@ -2,6 +2,8 @@ from django.forms import ModelForm
 from .models import Customer, News
 from django import forms
 # Book a table form
+
+
 class CustomerForm(forms.ModelForm):
     booking_date = forms.DateField(widget=forms.SelectDateWidget)
     booking_time = forms.TimeField(
