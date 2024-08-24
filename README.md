@@ -60,6 +60,7 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 
 ### User Stories
 (1) As a user I can navigate across the site with ease thanks to the navigationbar.
+
 (2) As a user I can Register on the site. 
 (3) As a user I can login on the site 
 (4) As a user I can logout on the site. 
