@@ -1,5 +1,5 @@
 body{
-    background-color: #F5F5DC; /* Beige eller annan krämig färg */
+    background-color: darkgray;
     color: #333333; /* Mörkgrå textfärg */
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ h1, p{
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background-image: url("https://res.cloudinary.com/dhpnihgnt/image/upload/v1724408892/static/images/plant-pottingshed-4.jpg");
+    background-image: url("https://res.cloudinary.com/dhpnihgnt/image/upload/q_100/v1724408892/static/images/plant-pottingshed-4.webp");
     background-size: cover;
     background-position: center;
 }
@@ -36,10 +36,11 @@ h1, p{
 .jumbotron {
     background: none;
     height: 20%;
+    background: wheat;
 }
 
 .container-fluid {
-    color: white;
+    color: wheat;
 }
 
 /* Img responsiv */
@@ -66,13 +67,12 @@ h1, p{
 
 .about-us-container{
 
-    background-image: url('https://res.cloudinary.com/dhpnihgnt/image/upload/v1724408891/static/images/kockar-med-eld.jpg');
     background-size: cover;
     background-position: center;
     overflow: hidden;
     margin: 0;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
