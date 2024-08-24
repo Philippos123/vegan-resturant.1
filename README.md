@@ -62,15 +62,25 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 (1) As a user I can navigate across the site with ease thanks to the navigationbar.
 
 (2) As a user I can Register on the site. 
+
 (3) As a user I can login on the site 
+
 (4) As a user I can logout on the site. 
+
 (5) As a user I will get notifications on wether I am logged in, or signed out. 
+
 (6) As a user I can book a table.
+
 (7) As a user I can't double book nor book a time when someone else have booked a table. The resturant require 15 min span. 
+
 (8) As a user I can see the news for the resturant. 
+
 (9) As a user I can see what time and date the news arrived.
+
 (10) As a user I can see an image of the dish from the news or another announcement.
+
 (11) As a user I can see if my booking went through.
+
 (12) As a user I can see if the time I book the table already was booked. 
 
 #### As the site owner...
