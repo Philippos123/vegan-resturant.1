@@ -1,18 +1,11 @@
-# Welcome to A Simple Stroll Game!
+# Welcome to A Swedish dish!
 
-![AMIRESPONSIV](images/jag%20responsiv.png)
-[Link to live site](https://a-simple-stroll-c4fc7eb42776.herokuapp.com/)
+![AMIRESPONSIV](media/Am%20I%20ResponsivPP4.png)
+[Link to live site](https://vegan-resturant-2421a5e836cb.herokuapp.com/)
 
 ## Introduction
-A Simple Stroll is a game for both females and males aged between 16-22 years. The goal of the game is to give the player an exciting and goosebump-inducing experience. It’s a horror game where you go for a simple stroll, and things turn south very quickly. There is an old cabin by the woods with a child crying. What could go wrong?
+Swedish dishes is a resturant where you can discover Swedish delights. The website has a fully functional admin panel where you can as a admin can book costumers or see if any one has booked a table, when and how many. 
 
-
-## How do you play? 
-You will follow the story of "A Simple Stroll" and reach points where you need to make decisions. Depending on your answers, you will either have a simple stroll or be hunted by a cannibal.
-
-The player will be able to give names and genders to the characters they meet in the story. There will be 2-3 different paths for the player to choose from.
-
-The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 
 ## Contents
 * [Project Goals](#project-goals)<br>
@@ -37,88 +30,47 @@ The player will be able to pick 1, 2, or 3, and y/n depending on the situation.
 * [Credits](#credits)
 
 
-# Project goals
+# User Goals
 
 ### For the user
-- To play a puzzle game where the goal is to survive the stroll.
-- To understand the instructions and know how to play.
+- To book a table
+- To login 
+- To view the resturant news
 
 ### For the admin
-- To provide players with clear instructions.
-- To create a game without errors.
+- Provide a solution for users to book a table online 
+- To attract more people that are intrested in swedish cuisine
+- To provide a modern and easie application to navigate. 
+- Create a website that are responsiv
 
 ## User Experience
 
 ### Target audience
-There are no specific users for the site, but the game would suit young users who are in search for a thrill. 
-It can alose be played by older users, it all depends on there personal intrest. 
+- Users that wish to book a table for family and friends
+- Toursits that are intrested in swedish cuisine.
+- Past and new costumers. 
 
 
 ### User requirements
-* A game that is understandable and works as expected.
-* A game that passes all the variables and functions works as expected. 
-* User can quit the game when they want.
-* User can continue playing even if they win. 
+- Fully responsiv
+- A warm and welcoming design 
+- Accessibility 
+- Accessible 
 
-
-### User Manual
-Click the dropdown to view the user manual:
-<details>
-<summary>User Manual</summary>
-
-### Main menu
-The user will be prompted to enter a player name, and will then be directed to the main menu.
-There are 2 options in the menu:
-1. Go right into the big and exciting city
-2. Go to the left into the adventure full forest. 
-
-
-### Reading instructions
-The user is able to see the instructions to the game in beginning of every new round. 
- <details><summary>HOW TO PLAY </summary>
-You will start the game by entering your name and then
-you will get choices to make on your stroll by
-pressing y,n,1,2 or 3 depening on the situation"</details>
-
-### Quitting the game
-The user is never able to choose to quit the game intentionally untill the player dies, win or goes home. But there are many paths that lead to the end of the game. 
-
-### Playing the game
-Once the game is started, the user must choose the right path to keep playing. If the user chooses the wrong path they eather end up dead or walking home and ending the stroll.
-
-#### Player navigation
-The player must move the character by typing their moves. 
-
-In order to navigate through levels of the story, the user must type their moves in the format:
-y,n,1,2,3
-#### Examples
-* Would you like to follow molly? y for yes n for no
-* You have two choices- 1: Go to the big city. 2:Go to the adventure full forest 
-
-#### Beware
-* If the user navigates into a story line where they die they will need to restart the game by pressing y. 
-* If the user enters a story line there is no way to retreat. You only have one chance. 
-
-### Completing the game
-The goal for the game is to survive a crazy stroll. If the player survive against the odds the player will reveive a "Congratulations" and get the choice to play again or leave. If the user is intrested in following an diffrent storyline 
-
-### Losing the game 
-If the player loses to the game, they will recive a "Welcome to the afterlife" and get the choice to play again or leave. If the user is intrested in following an diffrent storyline 
-
-</details><br>
 
 ### User Stories
-(1) Before you sign up with a username to start the game you will see a text that describe the game to encourage the user to start. 
-
-(2) Before you get to pick a path, you will see instructions 
-
-(3) You will get information about your location and your characters whereabout like a story. 
-
-(4) For inputs (whether text or numerical) to work as expected and any erroneous inputs to be flagged by the program.
-
-(5) For the program to give me feedback when I answer game questions correctly or incorrectly.
-
-(6) For the program to remember input the user gave. 
+(1) As a user I can navigate across the site with ease thanks to the navigationbar.
+(2) As a user I can Register on the site. 
+(3) As a user I can login on the site 
+(4) As a user I can logout on the site. 
+(5) As a user I will get notifications on wether I am logged in, or signed out. 
+(6) As a user I can book a table.
+(7) As a user I can't double book nor book a time when someone else have booked a table. The resturant require 15 min span. 
+(8) As a user I can see the news for the resturant. 
+(9) As a user I can see what time and date the news arrived.
+(10) As a user I can see an image of the dish from the news or another announcement.
+(11) As a user I can see if my booking went through.
+(12) As a user I can see if the time I book the table already was booked. 
 
 #### As the site owner...
 (7) Ensure that the user understand what's happening in the story.
