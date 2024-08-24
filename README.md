@@ -83,18 +83,26 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 
 (12) As a user I can see if the time I book the table already was booked. 
 
-#### As the site owner...
-(1) As an admin user I can log in so that I can access the back end of the site
+#### As the site owner
+(1) As an admin user I can log in so that I can access the back end of the site.
+
 (2) As an admin I can manually add a booking so that I can book a table if someone calls or sends a email. 
+
 (3) As an admin I can see all the bookings we have gotten. 
+
 (4) As an admin I can get more indepth information about the booking, like time, date and how many people. 
+
 (5) As an admin I can create news for the landing page. 
+
 (6) As an admin I can delete news for the landing page.
+
 (7) As an admin I can help create accounts.
+
 (8) As an admin I can delete accounts. 
 
 ### As the Site owner
 (1) As a site owner I can provide a fully responsive site for my customers.
+
 (2) As a site owner I can validate data entered into my forms so that all submitted data is correct. 
 
 # Design 
