@@ -84,24 +84,65 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 (12) As a user I can see if the time I book the table already was booked. 
 
 #### As the site owner...
-(7) Ensure that the user understand what's happening in the story.
+(1) As an admin user I can log in so that I can access the back end of the site
+(2) As an admin I can manually add a booking so that I can book a table if someone calls or sends a email. 
+(3) As an admin I can see all the bookings we have gotten. 
+(4) As an admin I can get more indepth information about the booking, like time, date and how many people. 
+(5) As an admin I can create news for the landing page. 
+(6) As an admin I can delete news for the landing page.
+(7) As an admin I can help create accounts.
+(8) As an admin I can delete accounts. 
 
-(8) Ensure that all user actions are given feedback in the terminal so that users feel they know what to do next in the game.
+### As the Site owner
+(1) As a site owner I can provide a fully responsive site for my customers.
+(2) As a site owner I can validate data entered into my forms so that all submitted data is correct. 
 
-(9) Ensure that if the user input invalid symbols it ittirate back or inform the user about it. 
+# Design 
 
-## Technical Design
+### Colors
+I have choosen a darker color theme because I personally love darker sites and it gives me cozy vibes, just like these. 
 
-### Flowchart
+I choose a darker navbar, a slightly lighter background and then a focus on warm colors like brown and wheat for the content. 
+![LandingPage](media/ladingpp4.png)
 
-A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the logic flow of the game.
+### Font 
+I am using the regular bootstrap font Nunito Sans
 
-<details>
-    <summary>Flowchart</summary>
-    <p>Dungeon Escape game logic:</p>
-    <img src="images/Flowchart.png" alt="A screenshot of the flowchart of game logic">
-</details><br>
+## Structure 
 
+### Website Pages
+The site was designed for the user to be familier with the layout and easy to navigate around in. The navigation bar is clear and is easy to see from desktop. From a smaller device the navbar transform to a hamburger menu with a button to see all the diffrent sites. 
+
+* The site consist of these following pages 
+ - HomePages/LandingPage with a picture of the resturant and a warm welcome to the site. In the homepage you as a user can find information about us and why you would like to eat here. If u scroll down you will get to our news list where we add all our news from dishes to big announcement.
+ - Login page is the page where you can login to your account. 
+ - Register page is the page where you can register. 
+ - Logout page is the page where you can sign out from your account
+ - Booking page is the page where you as a logged in user can book a table. 
+
+ ## Database 
+ * The database is built with Python and the Django framework with a database from Postgres for the deployed Heroky version. 
+### Models  
+
+ The first model is the **Customer** wich contains the follwoing:
+ * first_name
+ * last_name
+ * email
+ * booking_date 
+ * booking_time 
+ * number_of_people
+
+The secound model is the **news_image_path** wich contains the following:
+* ext
+* filename
+* logger
+
+ The third model is the **News** wich contains the following:
+ * title
+ * content
+ * image 
+ * created_at
+ * updated_at
 
 ### Data Models
 
