@@ -130,6 +130,7 @@ p{
 .container1{
     box-shadow: 7px 4px 5px 5px gray;
     padding-bottom: 50px;
+    background-color: wheat;
 }
 /* CTA for login page */
 
@@ -149,6 +150,7 @@ p{
     box-shadow: 7px 4px 5px 5px gray;
     padding-bottom: 50px;
     padding: 15px;
+    background-color: wheat;
 }
 
 .account-r{
@@ -270,7 +272,7 @@ p{
     overflow: hidden;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: wheat;
+    background-color: whitesmoke;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: column;
@@ -322,4 +324,9 @@ text-align: center;
 padding-top: 30px;
 font-size:26px;
 color: red;
+}
+
+.bookings-head{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

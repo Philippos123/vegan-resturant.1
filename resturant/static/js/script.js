@@ -16,9 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             
             // Generate the Google Calendar link with dynamic values
-
+            const startTime = `${date}T${time.replace(':', '')}00Z`;
+            const endTime = `${date}T${time.replace(':', '')}00Z`;
             
-            const googleCalendarLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&dates=%2F$&details=Your%20Booking%20Details&location=${encodeURIComponent(location)}&text=Booking%20at%20Your%20Restaurant`;
+            const googleCalendarLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&dates=${startTime}%2F${endTime}&details=Your%20Booking%20Details&location=${encodeURIComponent(location)}&text=${title}`;
             
             // Set the href attribute of the Google Calendar button
             document.getElementById('googleCalendarLink').setAttribute('href', googleCalendarLink);
