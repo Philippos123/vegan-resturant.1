@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.views import generic
 from .forms import CustomerForm
 from .models import Customer
+from django.contrib.auth.decorators import login_required
 from datetime import datetime
 from .models import News
 from django.contrib import messages
@@ -32,25 +33,29 @@ def book(request):
             booking_date = form.cleaned_data['booking_date']
             booking_time = form.cleaned_data['booking_time']
 
-            # Kontrollera om datum och tid redan är bokade
+            # Check if the date and time are already booked
             existing_booking = Customer.objects.filter(booking_date=booking_date, booking_time=booking_time).exists()
 
             if not existing_booking:
-                form.save()
+                booking = form.save(commit=False)
+                booking.user = request.user  # Set the user who made the booking
+                booking.save()
                 
                 messages.success(request, "Your booking has been successfully made!")
+                return redirect('my_bookings')  # Redirect to 'my_bookings' after a successful booking
 
             else:
                 messages.error(request, "This date and time is already booked.")
     else:
         form = CustomerForm()
 
-    context = {
-        'form': form,
-        # 'time_slots': time_slots
-    }
+    return render(request, "resturant/book.html", {'form': form})
 
-    return render(request, "resturant/book.html", context)
+@login_required
+def my_bookings(request):
+    bookings = Customer.objects.filter
+    return render(request, 'resturant/my_bookings.html', {'bookings': bookings})
+
 
 
     

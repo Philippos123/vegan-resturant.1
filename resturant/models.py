@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.conf import settings
 import os
 import logging
 
@@ -13,6 +14,7 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 # For admin to book costumer
 class Customer(models.Model):
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
     email = models.CharField(max_length=200, default="")

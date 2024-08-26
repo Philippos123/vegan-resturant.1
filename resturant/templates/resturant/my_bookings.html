@@ -1,0 +1,17 @@
+{% extends "resturant/base.html" %}
+
+{% block content %}
+<h1>My Bookings</h1>
+
+{% if bookings %}
+    <ul>
+    {% for booking in bookings %}
+        <li>
+            {{ booking.booking_date }} at {{ booking.booking_time }} for {{ booking.number_of_people }} people
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>You have no bookings.</p>
+{% endif %}
+{% endblock %}

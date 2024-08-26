@@ -14,6 +14,6 @@ class CustomerForm(forms.ModelForm):
 
     class Meta:
         model = Customer
-        fields = '__all__'
+        fields = ['booking_date', 'booking_time', 'number_of_people']
 
 
