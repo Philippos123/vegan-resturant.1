@@ -3,7 +3,6 @@ from django.contrib.auth.models import User
 from django.conf import settings
 import os
 import logging
-
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 
@@ -14,7 +13,7 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 # For admin to book costumer
 class Customer(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
     first_name = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
     email = models.CharField(max_length=200, default="")

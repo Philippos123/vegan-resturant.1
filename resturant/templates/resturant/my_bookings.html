@@ -2,15 +2,16 @@
 
 {% block content %}
 <h1>My Bookings</h1>
-
+<container class="containter-book">
 {% if bookings %}
-    <ul>
+    <ul class="bookings">
     {% for booking in bookings %}
         <li>
             {{ booking.booking_date }} at {{ booking.booking_time }} for {{ booking.number_of_people }} people
         </li>
     {% endfor %}
     </ul>
+</container>
 {% else %}
     <p>You have no bookings.</p>
 {% endif %}
