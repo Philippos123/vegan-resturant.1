@@ -2,17 +2,54 @@
 
 {% block content %}
 <h1>My Bookings</h1>
-<container class="containter-book">
-{% if bookings %}
-    <ul class="bookings">
-    {% for booking in bookings %}
-        <li>
-            {{ booking.booking_date }} at {{ booking.booking_time }} for {{ booking.number_of_people }} people
-        </li>
-    {% endfor %}
-    </ul>
-</container>
-{% else %}
-    <p>You have no bookings.</p>
-{% endif %}
+
+<div class="container-book">
+    {% if bookings %}
+        <ul class="bookings">
+        {% for booking in bookings %}
+            <li class="booking-item" data-bs-toggle="modal" data-bs-target="#bookingModal" 
+                data-date="{{ booking.booking_date }}" data-time="{{ booking.booking_time }}">
+                <p>Date: {{ booking.booking_date }}</p>
+                <p>Time: {{ booking.booking_time }}</p>
+                <p>Guests: {{ booking.number_of_people }}</p>
+                <p>Location: Eskilstuna Kungsgatan 36</p>
+            </li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>You have no bookings.</p>
+    {% endif %}
+</div>
+<div class="change-booking">
+    <h3>Would you like to cancel or change you booking?</h3>
+    <p class="change-booking-text">Call us on 777-000000-776</p>
+</div>
+
+<!-- Bootstrap Modal Structure -->
+<div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered custom-modal-position">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="bookingModalLabel">Booking Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Booking details will be dynamically inserted here -->
+                <p id="modalDate"></p>
+                <p id="modalTime"></p>
+                <p>Location: Eskilstuna Kungsgatan 36</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a id="googleCalendarLink" target="_blank" rel="noopener" 
+                    href="#" 
+                    class="gmail-show cta btn-yellow" 
+                    style="background-color: #F4D66C; font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight:bold; text-decoration: none; padding: 14px 20px; color: #1D2025; border-radius: 5px; display:inline-block; mso-padding-alt:0; box-shadow:0 3px 6px rgba(0,0,0,.2);">
+                    <span style="mso-text-raise:15pt;">Add to your Google Calendar</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
 {% endblock %}

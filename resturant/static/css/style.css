@@ -88,7 +88,7 @@ h1, p{
 
 /* Info about us */
 
-.info-list, h3{
+.info-head{
     font-size: 42px;
     padding-top: 30px;
     font-weight: 700;
@@ -291,11 +291,35 @@ p{
 
 /* Styling for each booking item */
 .bookings li {
-    background-color: whitesmoke;
+    background-color: wheat;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     padding: 20px;
     border-radius: 8px;
     flex: 1 1 calc(50% - 20px); 
     box-sizing: border-box; 
     margin-bottom: 20px; 
+}
+
+.bookings li:hover {
+    transform: translateY(-5px); /* Lift the item slightly */
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.3); /* Increase shadow to create a lifting effect */
+}
+
+.modal-dialog-centered.custom-modal-position {
+    margin-top: 20px; /* Adjust this value as needed */
+}
+
+.change-booking{
+    text-align: center;
+}
+.change-booking, h3{
+    padding-top: 30px;
+    color:black;
+}
+
+.change-booking-text{
+text-align: center;
+padding-top: 30px;
+font-size:26px;
+color: red;
 }
