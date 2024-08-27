@@ -188,7 +188,13 @@ The secound model is the **news_image_path** wich contains the following:
 
  #### Homepage
  * Home page includes navbar, main body and the news function. 
- "IMG" 
+ <details>
+    <ul>
+        <li>
+            <img src="media/homepage.pp4.png" alt="A screenshot of the main meny y/n feature">
+            <p> Home page </p>
+        </li>
+</details><br>
 
  #### Logo and Navigation
 * The resutrant name
@@ -197,30 +203,86 @@ The secound model is the **news_image_path** wich contains the following:
 * book and my bookings only appear if user is logged in 
 * IF signed out the user will see sign in 
 * Displayed on all images
+ <details>
+    <ul>
+        <li>
+            <img src="media/navbar.pp4.png" alt="A screenshot of the home page">
+            
+        
+</details><br>
 
 #### Sign up/Register
 * Allow users to create an account
-* Username and password is required. 
+* Username and password is required.
+ <details>
+    <ul>
+        <li>
+            <img src="media/signup.pp4.png" alt="A screenshot of the navbar">
+            
+        
+</details><br>
 
 #### Login
 * User can login to create a booking, view bookings and add to calender.
+ <details>
+    <ul>
+        <li>
+            <img src="media/signin.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        
+</details><br>
 
 #### Logout
 * Allows user to log out
-* Assures the user if it really want's to log out. 
+* Assures the user if it really want's to log out.
+ <details>
+    <ul>
+        <li>
+            <img src="media/signout.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        
+</details><br>
 
 #### book
 * Allows the user to book a table 
 * Messages are displayed if the data is not valid or the date and time is already booked. 
-* Messages are displayed if the data is valid. 
+* Messages are displayed if the data is valid.
+ <details>
+    <ul>
+        <li>
+            <img src="media/book.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        </li>
+</details><br>
 
 #### My bookings
 * Allows the user to see there bookings
 * Allows the user to add it to google calender
-* Gives the user the information it needs to cancel or change there booking. 
+* Gives the user the information it needs to cancel or change there booking.
+ <details>
+    <ul>
+        <li>
+            <img src="media/my_booking.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        
+</details><br>
+ <details>
+    <ul>
+        <li>
+            <img src="media/booking-detail.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        
+</details><br>
 
 #### News
-* Allows the user to see the news that are posted by the resturant. 
+* Allows the user to see the news that are posted by the resturant.
+ <details>
+    <ul>
+        <li>
+            <img src="media/new.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        
+</details><br>
 
 
 ### Data Models
