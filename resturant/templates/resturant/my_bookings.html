@@ -6,15 +6,21 @@
 <div class="container-book">
     {% if bookings %}
         <ul class="bookings">
-        {% for booking in bookings %}
-            <li class="booking-item" data-bs-toggle="modal" data-bs-target="#bookingModal" 
-                data-date="{{ booking.booking_date }}" data-time="{{ booking.booking_time }}">
-                <p>Date: {{ booking.booking_date }}</p>
-                <p>Time: {{ booking.booking_time }}</p>
-                <p>Guests: {{ booking.number_of_people }}</p>
-                <p>Location: Eskilstuna Kungsgatan 36</p>
-            </li>
-        {% endfor %}
+            {% for booking in bookings %}
+                <li class="booking-item">
+                    <div class="booking-details" data-bs-toggle="modal" data-bs-target="#bookingModal" 
+                         data-date="{{ booking.booking_date }}" data-time="{{ booking.booking_time }}">
+                        <p>Date: {{ booking.booking_date }}</p>
+                        <p>Time: {{ booking.booking_time }}</p>
+                        <p>Guests: {{ booking.number_of_people }}</p>
+                        <p>Location: Eskilstuna Kungsgatan 36</p>
+                    </div>
+                    <div class="booking-actions">
+                        <a href="#" class="btn btn-link">Change booking</a>
+                        <a href="#" class="btn btn-link">Cancel booking</a>
+                    </div>
+                </li>
+            {% endfor %}
         </ul>
     {% else %}
         <p>You have no bookings.</p>
@@ -38,6 +44,7 @@
                 <p id="modalDate"></p>
                 <p id="modalTime"></p>
                 <p>Location: Eskilstuna Kungsgatan 36</p>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
