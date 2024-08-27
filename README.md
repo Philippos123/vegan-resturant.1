@@ -83,6 +83,10 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 
 (12) As a user I can see if the time I book the table already was booked. 
 
+(13) As a user I can go and see my booking and find out how I can cancel or change the time.
+
+(14) As a user I can add the booking to my google calender.
+
 #### As the site owner
 (1) As an admin user I can log in so that I can access the back end of the site.
 
@@ -127,9 +131,11 @@ The site was designed for the user to be familier with the layout and easy to na
  - Register page is the page where you can register. 
  - Logout page is the page where you can sign out from your account
  - Booking page is the page where you as a logged in user can book a table. 
+ - My booking is the page where you can see your bookings and add them to your google calender. 
 
  ## Database 
  * The database is built with Python and the Django framework with a database from Postgres for the deployed Heroky version. 
+
 ### Models  
 
  The first model is the **Customer** wich contains the follwoing:
@@ -151,6 +157,71 @@ The secound model is the **news_image_path** wich contains the following:
  * image 
  * created_at
  * updated_at
+
+ ## Technologies Used
+
+ ### Languages & Frameworks 
+
+ * HTML
+ * CSS 
+ * Javascript
+ * Python 
+ * Django
+
+ ### Libraries & Tools
+
+ * AM I Responsiv
+ * Boostrap v5
+ * Cloudinary
+ * Chrome dev tools
+ * Git
+ * Github
+ * Heroku Platform
+ * Postgres
+ * Summernote
+ * JQuery
+ #### Validation
+ - Code Institute PEP8 Validation
+ - Lighthouse 
+
+ # Features
+
+ #### Homepage
+ * Home page includes navbar, main body and the news function. 
+ "IMG" 
+
+ #### Logo and Navigation
+* The resutrant name
+* Fully responsive
+* On smaller devices the navbar switch to hamburger meny 
+* book and my bookings only appear if user is logged in 
+* IF signed out the user will see sign in 
+* Displayed on all images
+
+#### Sign up/Register
+* Allow users to create an account
+* Username and password is required. 
+
+#### Login
+* User can login to create a booking, view bookings and add to calender.
+
+#### Logout
+* Allows user to log out
+* Assures the user if it really want's to log out. 
+
+#### book
+* Allows the user to book a table 
+* Messages are displayed if the data is not valid or the date and time is already booked. 
+* Messages are displayed if the data is valid. 
+
+#### My bookings
+* Allows the user to see there bookings
+* Allows the user to add it to google calender
+* Gives the user the information it needs to cancel or change there booking. 
+
+#### News
+* Allows the user to see the news that are posted by the resturant. 
+
 
 ### Data Models
 
