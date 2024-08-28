@@ -296,13 +296,13 @@ p{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     padding: 20px;
     border-radius: 8px;
-    flex: 1 1 calc(50% - 20px); 
     box-sizing: border-box; 
     margin-bottom: 20px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
+    margin-top: 20px;
 }
 
 .bookings li:hover {
@@ -319,12 +319,7 @@ p{
     margin-top: 10px; /* Space between booking item and actions */
     text-align: center; /* Center the actions */
     width: 100%;
-}
-
-.booking-actions a {
-    margin-right: 10px;
-    color: #007bff;
-    text-decoration: none;
+    margin-bottom: 20px; /* Additional space below the buttons */
 }
 
 .booking-actions a:hover {
@@ -335,11 +330,11 @@ p{
     margin-top: 20px; /* Adjust this value as needed */
 }
 
-.change-booking{
+.change-booking {
     text-align: center;
 }
 
-.change-booking, h3{
+.change-booking, h3 {
     padding-top: 30px;
     color:black;
 }
@@ -354,4 +349,25 @@ p{
 .bookings-head {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.button-cancel{
+    background: red;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    margin: 25px;  
+    text-decoration:none;
+    padding: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.button-change{
+    background: green;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    margin: 25px;
+    text-decoration:none;
+    padding: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }

@@ -15,20 +15,17 @@
                         <p>Guests: {{ booking.number_of_people }}</p>
                         <p>Location: Eskilstuna Kungsgatan 36</p>
                     </div>
-                    <div class="booking-actions">
-                        <a href="#" class="btn btn-link">Change booking</a>
-                        <a href="#" class="btn btn-link">Cancel booking</a>
-                    </div>
                 </li>
+                
+                <div class="booking-actions">
+                    <a href="{% url 'update_booking' booking.id %}" class="button-change">Change booking</a>
+                    <a href="{% url 'delete_booking' booking.id %}" class="button-cancel">Cancel booking</a>
+                </div>
             {% endfor %}
         </ul>
     {% else %}
         <p>You have no bookings.</p>
     {% endif %}
-</div>
-<div class="change-booking">
-    <h3>Would you like to cancel or change you booking?</h3>
-    <p class="change-booking-text">Call us on 777-000000-776</p>
 </div>
 
 <!-- Bootstrap Modal Structure -->
@@ -51,8 +48,8 @@
                 <a id="googleCalendarLink" target="_blank" rel="noopener" 
                     href="#" 
                     class="gmail-show cta btn-yellow" 
-                    style="background-color: #F4D66C; font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight:bold; text-decoration: none; padding: 14px 20px; color: #1D2025; border-radius: 5px; display:inline-block; mso-padding-alt:0; box-shadow:0 3px 6px rgba(0,0,0,.2);">
-                    <span style="mso-text-raise:15pt;">Add to your Google Calendar</span>
+                    style="background-color: #F4D66C; font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight:bold; text-decoration: none; padding: 14px 20px; color: #1D2025; border-radius: 5px; display:inline-block; box-shadow:0 3px 6px rgba(0,0,0,.2);">
+                    <span>Add to your Google Calendar</span>
                 </a>
             </div>
         </div>

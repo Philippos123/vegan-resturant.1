@@ -1,0 +1,23 @@
+{% extends "resturant/base.html" %}
+
+{% block content %}
+    <h1 class="book-head">Cancel booking</h1>
+
+    <!-- Display success or error messages -->
+    {% if messages %}
+        <div class="messages">
+            {% for message in messages %}
+                <div class="message {{ message.tags }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <form method="post" class="book-form">
+        {% csrf_token %}
+        <p>Are you sure you want to cancel this booking?</p>
+        <button type="submit">Yes, delete</button>
+        <a href="{% url 'my_booking' %}">Cancel</a>
+    </form>
+{% endblock %}

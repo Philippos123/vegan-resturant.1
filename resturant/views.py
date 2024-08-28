@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, get_object_or_404, redirect
 from django.views import generic
 from .forms import CustomerForm
 from .models import Customer
@@ -55,6 +55,41 @@ def book(request):
 def my_bookings(request):
     bookings = Customer.objects.filter(user=request.user)
     return render(request, 'resturant/my_bookings.html', {'bookings': bookings})
+
+
+@login_required
+def update_booking(request, booking_id):
+    booking = get_object_or_404(Customer, id=booking_id, user=request.user)
+
+    if request.method == 'POST':
+        form = CustomerForm(request.POST, instance=booking)
+        if form.is_valid():
+            updated_booking = form.save(commit=False)
+            
+            # Check if the new date and time are already booked (excluding the current booking)
+            if not Customer.objects.filter(
+                booking_date=updated_booking.booking_date, 
+                booking_time=updated_booking.booking_time
+            ).exclude(id=booking_id).exists():
+                
+                updated_booking.save()
+                messages.success(request, "Your booking has been successfully updated!")
+            else:
+                messages.error(request, "This date and time is already booked.")
+    else:
+        form = CustomerForm(instance=booking)
+
+    return render(request, 'resturant/update_booking.html', {'form': form})
+
+@login_required
+def delete_booking(request, booking_id):
+    booking = get_object_or_404(Customer, id=booking_id, user=request.user)
+
+    if request.method == 'POST':
+        booking.delete()
+        messages.success(request, "Your booking has been successfully deleted!")
+
+    return render(request, 'resturant/delete_booking.html', {'booking': booking})
 
 
 

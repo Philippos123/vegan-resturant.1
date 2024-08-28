@@ -10,5 +10,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('booking/', views.book, name="book"),
     path('my-bookings/', views.my_bookings, name="my_booking"),
+    path('booking/<int:booking_id>/update/', views.update_booking, name='update_booking'),
+    path('booking/<int:booking_id>/delete/', views.delete_booking, name='delete_booking'),
 
 ]
