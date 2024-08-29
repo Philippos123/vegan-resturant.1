@@ -8,28 +8,28 @@
 <h1 class="bookings-head">My Bookings</h1>
 
 <div class="container-book">
-    {% if bookings %}
-        <ul class="bookings">
-            {% for booking in bookings %}
-                <li class="booking-item">
-                    <div class="booking-details" data-bs-toggle="modal" data-bs-target="#bookingModal" 
-                         data-date="{{ booking.booking_date }}" data-time="{{ booking.booking_time }}">
-                        <p>Date: {{ booking.booking_date }}</p>
-                        <p>Time: {{ booking.booking_time }}</p>
-                        <p>Guests: {{ booking.number_of_people }}</p>
-                        <p>Location: Eskilstuna Kungsgatan 36</p>
-                    </div>
-                </li>
-                
+    <!--{% if bookings %}-->
+    <ul class="bookings">
+        {% for booking in bookings %}
+            <li class="booking-item">
+                <div class="booking-details" data-bs-toggle="modal" data-bs-target="#bookingModal" 
+                     data-date="{{ booking.booking_date }}" data-time="{{ booking.booking_time }}">
+                    <p>Date: {{ booking.booking_date }}</p>
+                    <p>Time: {{ booking.booking_time }}</p>
+                    <p>Guests: {{ booking.number_of_people }}</p>
+                    <p>Location: Eskilstuna Kungsgatan 36</p>
+                </div>
+            </li>
+                <!-- Booking actions should be inside the <li> -->
                 <div class="booking-actions">
                     <a href="{% url 'update_booking' booking.id %}" class="button-change">Change booking</a>
                     <a href="{% url 'delete_booking' booking.id %}" class="button-cancel">Cancel booking</a>
                 </div>
-            {% endfor %}
-        </ul>
-    {% else %}
+        {% endfor %}
+    </ul>
+    <!--{% else %}-->
         <p>You have no bookings.</p>
-    {% endif %}
+    <!--{% endif %}-->
 </div>
 
 <!-- Bootstrap Modal Structure -->

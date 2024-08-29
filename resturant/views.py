@@ -6,7 +6,6 @@ from django.contrib.auth.decorators import login_required
 from datetime import datetime
 from .models import News
 from django.contrib import messages
-from .forms import CustomerForm
 
 
 def index(request):
@@ -17,9 +16,8 @@ def index(request):
 def home(request):
     return render(request, "index.html")
 
+
 # News function views
-
-
 def news(request):
     news_list = News.objects.all().order_by('-created_at')
     print(news_list)
@@ -35,26 +33,33 @@ def book(request):
             booking_time = form.cleaned_data['booking_time']
 
             # Check if the date and time are already booked
-            existing_booking = Customer.objects.filter(booking_date=booking_date, booking_time=booking_time).exists()
+            existing_booking = Customer.objects.filter(
+                booking_date=booking_date, booking_time=booking_time
+            ).exists()
 
             if not existing_booking:
                 booking = form.save(commit=False)
-                booking.user = request.user  # Set the user who made the booking
+                booking.user = request.user
                 booking.save()
-                
-                messages.success(request, "Your booking has been successfully made!")
-
+                messages.success(request,
+                                 "Your booking has been successfully made!")
             else:
-                messages.error(request, "This date and time is already booked.")
+                messages.error(request,
+                               "This date and time is already booked.")
     else:
         form = CustomerForm()
 
     return render(request, "resturant/book.html", {'form': form})
 
+
 @login_required
 def my_bookings(request):
     bookings = Customer.objects.filter(user=request.user)
-    return render(request, 'resturant/my_bookings.html', {'bookings': bookings})
+    return render(
+        request,
+        'resturant/my_bookings.html',
+        {'bookings': bookings}
+    )
 
 
 @login_required
@@ -65,21 +70,22 @@ def update_booking(request, booking_id):
         form = CustomerForm(request.POST, instance=booking)
         if form.is_valid():
             updated_booking = form.save(commit=False)
-            
-            # Check if the new date and time are already booked (excluding the current booking)
+            # Check if the new date and time are already booked
             if not Customer.objects.filter(
-                booking_date=updated_booking.booking_date, 
+                booking_date=updated_booking.booking_date,
                 booking_time=updated_booking.booking_time
             ).exclude(id=booking_id).exists():
-                
                 updated_booking.save()
-                messages.success(request, "Your booking has been successfully updated!")
+                messages.success(request,
+                                 "Your booking has been successfully updated!")
             else:
-                messages.error(request, "This date and time is already booked.")
+                messages.error(request,
+                               "This date and time is already booked.")
     else:
         form = CustomerForm(instance=booking)
 
     return render(request, 'resturant/update_booking.html', {'form': form})
+
 
 @login_required
 def delete_booking(request, booking_id):
@@ -87,9 +93,15 @@ def delete_booking(request, booking_id):
 
     if request.method == 'POST':
         booking.delete()
-        messages.success(request, "Your booking has been successfully deleted!")
+        messages.success(request,
+                         "Your booking has been successfully deleted!")
 
-    return render(request, 'resturant/delete_booking.html', {'booking': booking})
+    return render(
+        request,
+        'resturant/delete_booking.html',
+        {'booking': booking}
+    )
+
 
 
 
