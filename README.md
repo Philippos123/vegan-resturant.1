@@ -87,6 +87,12 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 
 (14) As a user I can add the booking to my google calender.
 
+(15) As a user I can cancel my booking.
+
+(16) As a user I can change my booking.
+
+(17) As a user I get notifications about everything I do from change booking so log in. 
+
 #### As the site owner
 (1) As an admin user I can log in so that I can access the back end of the site.
 
@@ -103,6 +109,8 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 (7) As an admin I can help create accounts.
 
 (8) As an admin I can delete accounts. 
+
+(9) As an admin I can see if someone deletes an booking.
 
 ### As the Site owner
 (1) As a site owner I can provide a fully responsive site for my customers.
@@ -132,6 +140,8 @@ The site was designed for the user to be familier with the layout and easy to na
  - Logout page is the page where you can sign out from your account
  - Booking page is the page where you as a logged in user can book a table. 
  - My booking is the page where you can see your bookings and add them to your google calender. 
+ - Cancel booking is the page where you as a logged in user can cancel your booking
+ - Update booking is the page where you as a logged in user can change the time, date and amout of guests of your booking. 
 
  ## Database 
  * The database is built with Python and the Django framework with a database from Postgres for the deployed Heroky version. 

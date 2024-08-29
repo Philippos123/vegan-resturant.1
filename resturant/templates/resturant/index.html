@@ -1,96 +1,79 @@
-{% extends "resturant/base.html" %} 
+{% extends "resturant/base.html" %}
 
 {% load static %}
-
 
 {% block title %} Home Page {% endblock %}
 
 {% if messages %}
-
-
+    <!-- You may want to include some code to display messages -->
 {% endif %}
 
 {% block content %}
-{% if messages %}
-<div class="messages">
-    {% for message in messages %}
-        <div class="message {{ message.tags }}">
-            {{ message }}
+    {% if messages %}
+    <div class="messages">
+        {% for message in messages %}
+            <div class="message {{ message.tags }}">
+                {{ message }}
+            </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="banner"></div>
+
+    <div class="content-container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <h1 class="display-4">Welcome to Our Website</h1>
+                <p class="lead">Welcome to Swedish dishes!</p>
+            </div>
         </div>
-    {% endfor %}
-</div>
-{% endif %}
-<div class="banner"></div>
 
-<div class="content-container">
-    <div class="jumbotron jumbotron-fluid" >
-        <div class="container-fluid">
-            <h1 class="display-4">Welcome to Our Website</h1> <!-- Title -->
-            
-            <p class="lead">Welcome to Swedish dishes!</p>
-        </div>
-
-
-        <div class="about-us-container"> <!-- hero-img -->
+        <div class="about-us-container">
             <div class="about-us">
                 <p style="color: wheat;">Welcome to Swedish Dishes – A Culinary Journey of Swedish Delights!
-
                     Explore a culinary adventure through Sweden's rich food culture at our restaurant. At Swedish Dishes, we strive to offer our guests an authentic taste experience, where traditional recipes and fresh ingredients come together to create memorable meals.
-                    
-                    .</p>
-                </div>
+                </p>
             </div>
-
-
         </div>
 
-        <div class="info-list"> <!-- Info list -->
-            <ul>
-                <ol>
-                    <h3 class="info-head"> Our Kitchen: </h3>
-                    <p class="info-text">Our chefs are passionate about preparing dishes with love and precision. We use carefully selected ingredients to craft a menu that celebrates the Swedish kitchen. 
-                    From classic meatballs and gravlax to modern interpretations of traditional favorites – each dish is a tribute to Sweden's culinary heritage.</p>
-                </ol>
-                <ol>
+        <div class="info-list">
+            <ul style="list-style-type: none;">
+                <li>
+                    <h3 class="info-head">Our Kitchen:</h3>
+                    <p class="info-text">Our chefs are passionate about preparing dishes with love and precision. We use carefully selected ingredients to craft a menu that celebrates the Swedish kitchen. From classic meatballs and gravlax to modern interpretations of traditional favorites – each dish is a tribute to Sweden's culinary heritage.</p>
+                </li>
+                <li>
                     <h3 class="info-head">Seasonal Ingredients:</h3>
-                    <p class="info-text">We aim to use fresh, local, and seasonal ingredients to ensure that each bite is an explosion of flavors.
-                     Our menu adapts to the season's offerings, guaranteeing a unique and varied dining experience every time you visit us.</p>
-                </ol>
-                <ol>
+                    <p class="info-text">We aim to use fresh, local, and seasonal ingredients to ensure that each bite is an explosion of flavors. Our menu adapts to the season's offerings, guaranteeing a unique and varied dining experience every time you visit us.</p>
+                </li>
+                <li>
                     <h3 class="info-head">Atmosphere and Service:</h3>
-                    <p class="info-text">Swedish Dishes is not just a place to eat – it's a place to enjoy camaraderie and good moments.
-                     Our restaurant is designed to create a relaxed and inviting atmosphere where guests can feel at home.
-                     Our friendly and knowledgeable staff is dedicated to making your experience with us memorable and personal.</p>
-                </ol>
-                <ol>
-                    <h3 class="info-head">Events and Catering:</h3>  
-                    <p class="info-text">Swedish Dishes also offers catering services, allowing you to enjoy our delicacies wherever you are.Explore the rich flavors of the Swedish kitchen at Swedish Dishes – where tradition meets innovation in every bite.
-                    Welcome to a food journey that goes beyond the expected, and let's together create memorable moments at our table. Bon appétit!</p>
-                </ol>
+                    <p class="info-text">Swedish Dishes is not just a place to eat – it's a place to enjoy camaraderie and good moments. Our restaurant is designed to create a relaxed and inviting atmosphere where guests can feel at home. Our friendly and knowledgeable staff is dedicated to making your experience with us memorable and personal.</p>
+                </li>
+                <li>
+                    <h3 class="info-head">Events and Catering:</h3>
+                    <p class="info-text">Swedish Dishes also offers catering services, allowing you to enjoy our delicacies wherever you are. Explore the rich flavors of the Swedish kitchen at Swedish Dishes – where tradition meets innovation in every bite. Welcome to a food journey that goes beyond the expected, and let's together create memorable moments at our table. Bon appétit!</p>
+                </li>
             </ul>
         </div>
-        
-        <h1 class="news-header">News! <!-- News list -->
-            <hr>
-        </h1>
-        
-        <h1>Nyhetslista</h1>
 
+        <h1 class="news-header">News!</h1>
+        <hr>
 
-{% for news in news_list %} <!-- News lsit -->
-    <div class="news-item">
-        <h2 class="news-h2">{{ news.title }}</h2>
-        <p class="news-content">{{ news.content }}</p>
-        {% if news.image %}
-            <img src="{{ news.image.url }}" alt="{{ news.title }}" class="img-list">
-        {% else %}
-            <p>No image available</p>
-        {% endif %}
-        <p class="pub-date">Publicerad den: {{ news.created_at }}</p>
+        <h2>Nyhetslista</h2>
 
+        {% for news in news_list %}
+        <div class="news-item">
+            <h2 class="news-h2">{{ news.title }}</h2>
+            <p class="news-content">{{ news.content }}</p>
+            {% if news.image %}
+                <img src="{{ news.image.url }}" alt="{{ news.title }}" class="img-list">
+            {% else %}
+                <p>No image available</p>
+            {% endif %}
+            <p class="pub-date">Publicerad den: {{ news.created_at }}</p>
+        </div>
+        {% endfor %}
     </div>
-{% endfor %}
-    </div>
-</div>
 {% endblock %}
-
