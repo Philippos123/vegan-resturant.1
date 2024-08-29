@@ -278,7 +278,7 @@ The secound model is the **news_image_path** wich contains the following:
  <details>
     <ul>
         <li>
-            <img src="media/my_booking.pp4.png" alt="A screenshot of the main meny y/n feature">
+            <img src="media/my_booking.pp4.true.png" alt="A screenshot of the main meny y/n feature">
             
         
 </details><br>
@@ -291,21 +291,21 @@ The secound model is the **news_image_path** wich contains the following:
 </details><br>
 
 #### Change booking
-* Allows the user to change the booking "IMG"
+* Allows the user to change the booking
  <details>
     <ul>
         <li>
-            <img src="media/book.pp4.png" alt="A screenshot of the main meny y/n feature">
+            <img src="media/update-booking.pp4.png" alt="A screenshot of the main meny y/n feature">
             
         </li>
 </details><br>
 
 #### Cancel booking
-* Allows user to cancel a booking "IMG"
+* Allows user to cancel a booking
  <details>
     <ul>
         <li>
-            <img src="media/book.pp4.png" alt="A screenshot of the main meny y/n feature">
+            <img src="media/cancel-booking.pp4.png" alt="A screenshot of the main meny y/n feature">
             
         </li>
 </details><br>
