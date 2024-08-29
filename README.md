@@ -322,6 +322,48 @@ The secound model is the **news_image_path** wich contains the following:
         
 </details><br>
 
+# Validation 
+The W3C markup Validation Service 
+<details>
+    <summary> Home </summary>
+    <ul>
+        <li><img src="media/validator.pp4index.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<details>
+    <summary> Register </summary>
+    <ul>
+        <li><img src="media/validator.pp4register.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<details>
+    <summary> Login </summary>
+    <ul>
+        <li><img src="media/validator.pp4login.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<details>
+    <summary> Logout </summary>
+    <ul>
+        <li><img src="media/validator.pp4logout.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<details>
+    <summary> Booking </summary>
+    <ul>
+        <li><img src="media/validator.pp4book.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<details>
+    <summary> My bookings </summary>
+    <ul>
+        <li><img src="media/validator.pp4mybooking.true.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<details>
+    <summary> Delete booking </summary>
+    <ul>
+        <li><img src="media/validator.pp4cancelbooking.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<details>
+    <summary> Edit booking </summary>
+    <ul>
+        <li><img src="media/validator.pp4updatebooking.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
 
 ### Data Models
 
