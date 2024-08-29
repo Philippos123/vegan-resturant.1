@@ -158,6 +158,12 @@ The secound model is the **news_image_path** wich contains the following:
  * created_at
  * updated_at
 
+ The forth model is the **update_booking** wich containss the following: 
+ * update_booking
+
+ The fifth model is the **delete_booking** wich contains the following: 
+ * delete_booking
+
  ## Technologies Used
 
  ### Languages & Frameworks 
@@ -273,6 +279,28 @@ The secound model is the **news_image_path** wich contains the following:
             
         
 </details><br>
+
+#### Change booking
+* Allows the user to change the booking "IMG"
+ <details>
+    <ul>
+        <li>
+            <img src="media/book.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        </li>
+</details><br>
+
+#### Cancel booking
+* Allows user to cancel a booking "IMG"
+ <details>
+    <ul>
+        <li>
+            <img src="media/book.pp4.png" alt="A screenshot of the main meny y/n feature">
+            
+        </li>
+</details><br>
+
+
 
 #### News
 * Allows the user to see the news that are posted by the resturant.

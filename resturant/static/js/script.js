@@ -10,11 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const location = "Eskilstuna Kungsgatan 36";
             const title = `Table at Swedish dishes`;
             
-            // Update modal content with booking details
-            document.getElementById('modalDate').textContent = `Date: ${date}`;
-            document.getElementById('modalTime').textContent = `Time: ${time}`;
             
-            const googleCalendarLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&dates=${startTime}%2F${endTime}&details=Your%20Booking%20Details&location=${encodeURIComponent(location)}&text=${title}`;
+            const googleCalendarLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&dates=%2F&details=Your%20Booking%20Details&location=${encodeURIComponent(location)}&text=${title}`;
             
             // Set the href attribute of the Google Calendar button
             document.getElementById('googleCalendarLink').setAttribute('href', googleCalendarLink);
