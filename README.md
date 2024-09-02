@@ -413,6 +413,72 @@ Pep8 Validaton was done through the PEP8 validator from codeinstitute
         <p>When I tried to cut the line 20 because of a E501 error I got a E128 error in return</p>
 </details><br>
 
+## Lighthouse
+Performance, best practicees and SEO was tested with lighthouse
+**Desktop**
+<summary> Home </summary>S
+    <ul>
+        <li><img src="media/Lighthouse.home.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> Login </summary>S
+    <ul>
+        <li><img src="media/lighthouse.login.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> Register </summary>S
+    <ul>
+        <li><img src="media/lighthouse.register.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> book a table </summary>S
+    <ul>
+        <li><img src="media/lighthouse.book.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> My booking </summary>S
+    <ul>
+        <li><img src="media/lighthouse.my-booking.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> Logout </summary>S
+    <ul>
+        <li><img src="media/lighthouse.logout.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+**Mobile**
+<summary> home </summary>S
+    <ul>
+        <li><img src="media/lighthouse.home.p.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> Login </summary>S
+    <ul>
+        <li><img src="media" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> Register </summary>S
+    <ul>
+        <li><img src="media" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> Book a table </summary>S
+    <ul>
+        <li><img src="media/lighthouse.book.p.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> My booking </summary>S
+    <ul>
+        <li><img src="media" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+<summary> Logout </summary>S
+    <ul>
+        <li><img src="media/lighthouse.logout-p.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+
+
 # Manual testing
 
 

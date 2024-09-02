@@ -371,3 +371,14 @@ p{
     padding: 15px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
+
+
+@media screen and (max-width: 480px) {
+    .button-cancel,
+    .button-change {
+        margin: 10px auto; /* Further reduce margin */
+        padding: 10px; /* Reduce padding */
+        width: 80%; /* Ensure buttons fit within smaller screens */
+        font-size: 14px; /* Adjust font size */
+    }
+}
