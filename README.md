@@ -21,6 +21,7 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 * [Technologies Used](#technologies-used)
 * [Features](#features)
     * [Feature Ideas for future development](#feature-ideas-for-future-development)
+* [CRUD](#crud)
 * [Testing](#testing)
     * [Validation](#validation)
     * [lighthouse](#lighthouse)
@@ -216,6 +217,7 @@ The secound model is the **news_image_path** wich contains the following:
 </details><br>
 
  #### Logo and Navigation
+ Cover userstorie: 1,8
 * The resutrant name
 * Fully responsive
 * On smaller devices the navbar switch to hamburger meny 
@@ -229,6 +231,7 @@ The secound model is the **news_image_path** wich contains the following:
             
         
 </details><br>
+Cover userstorie: 2
 
 #### Sign up/Register
 * Allow users to create an account
@@ -240,6 +243,7 @@ The secound model is the **news_image_path** wich contains the following:
             
         
 </details><br>
+Cover userstorie: 3
 
 #### Login
 * User can login to create a booking, view bookings and add to calender.
@@ -250,6 +254,7 @@ The secound model is the **news_image_path** wich contains the following:
             
         
 </details><br>
+Cover userstorie: 4,5
 
 #### Logout
 * Allows user to log out
@@ -261,6 +266,7 @@ The secound model is the **news_image_path** wich contains the following:
             
         
 </details><br>
+Cover userstorie: 6,7,12,
 
 #### book
 * Allows the user to book a table 
@@ -273,6 +279,7 @@ The secound model is the **news_image_path** wich contains the following:
             
         </li>
 </details><br>
+Cover userstorie: 13,14,15,16
 
 #### My bookings
 * Allows the user to see there bookings
@@ -294,6 +301,8 @@ The secound model is the **news_image_path** wich contains the following:
 </details><br>
 
 #### Change booking
+Cover userstorie: 15
+
 * Allows the user to change the booking
  <details>
     <ul>
@@ -304,6 +313,8 @@ The secound model is the **news_image_path** wich contains the following:
 </details><br>
 
 #### Cancel booking
+Cover userstorie: 16
+
 * Allows user to cancel a booking
  <details>
     <ul>
@@ -324,6 +335,12 @@ The secound model is the **news_image_path** wich contains the following:
             
         
 </details><br>
+
+# CRUD
+* Create - You as a user can create a new booking wich you can find in the Booking
+* Read - You as a user can read news posted or read your bookings in the My Bookings 
+* Update - You as a user can update your bookings in the my booking page. Press the green button to change
+* Delte - You as a user can delete your bookings in the my booking page. Press the red button to change. 
 
 # Validation 
 The W3C markup Validation Service 
@@ -420,6 +437,8 @@ Pep8 Validaton was done through the PEP8 validator from codeinstitute
         <li><img src="media/validator.pp4.admin.png" alt="A screenshot of when the user use invalid input"></li>
         <p>When I tried to cut the line 20 because of a E501 error I got a E128 error in return</p>
 </details><br>
+
+
 
 ## Lighthouse
 Performance, best practicees and SEO was tested with lighthouse
