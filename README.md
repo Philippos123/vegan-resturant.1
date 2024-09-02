@@ -8,24 +8,25 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 
 
 ## Contents
-* [Project Goals](#project-goals)<br>
+* [Porject Goal](#user-goals)<br>
     * [For the user](#for-the-user)
     * [For the site owner](#for-the-admin)
 * [User Experience](#user-experience)<br>
     * [Target audience](#target-audience)
     * [User requirements](#user-requirements)
-    * [User Manual](#user-manual)
     * [User Stories](#user-stories)
-* [Technical Design](#technical-design)
-    * [Flowchart](#flowchart)
+* [Design](#design)
+    * [Structure](#structure)
+* [Databse](#database)
+* [Technologies Used](#technologies-used)
 * [Features](#features)
     * [App Features](#app-features)
     * [Feature Ideas for future development](#feature-ideas-for-future-development)
-* [Technologies Used](#technologies-used)
-* [Deployment & Local Development](#deployment--local-development)
 * [Testing](#testing)
-    * [Validation](#pep8)
+    * [Validation](#validation)
+    * [lighthouse](#lighthouse)
     * [Manual Testing](#manual-testing)
+* [Deployment & Local Development](#deployment--local-development)
     * [Bugs](#bugs)
 * [Credits](#credits)
 
@@ -757,6 +758,8 @@ The site was tested using the following browsers:
 The site was tested on the following devices:
 * Desktop (Windows 11)
 * Macbook M1 2018(macOS Sonoma 14.3)
+
+## Bugs
 
 
 
