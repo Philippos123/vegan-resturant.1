@@ -479,22 +479,173 @@ Performance, best practicees and SEO was tested with lighthouse
 
 
 
-# Manual testing
+## Testing
 
+1. Manual testing
+2. Automated testing
 
-### User story testing
+### Manual testing
 
+1. As a User I can navigate across the site so that I can move to each feature of the site easily
 
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 1. Start Game | start game with username | When the user starts the game, they have an option to choose a username. | If user use only letters they game progess to the Choose path | Works as expected. |
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Click on the 'Home' link in the navigation bar | Homepage will load| Works as expected |
+| Click on the 'Register' link in the navigation bar | Sign up page will load| Works as expected |
+| Click on the 'Login' link in the navigation bar | Login page will load| Works as expected |
+| Click on the 'Book' link in the navigation bar | Booking form will load| Works as expected |
+| Click on the 'My Bookings' link in the navigation bar | Users booking will load and show| Works as expected |
+| Click on the 'Logout' link in the navigation bar | Logout page will load| Works as expected |
 
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/main stroll.png" alt="A screenshot of the main meny. ">
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/lighthouse.logout-p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
+2. As a user I can register on the site
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Click on the register link in the navigation bar  | register page will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.2.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
 
+3. As a user I can login on the site
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Click on the Login link in the navigation bar  | Login page will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.3.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+4. As a user I can logout on the site
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| (When logged in ) Click on the logut link in navigationbar | logout page will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.4.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+5. As a user I will get notifications on wether I am logged in, or signed out.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| (When logged in ) When you create an action(Login, Logout, book, cancel, change)The user will get notification  | Notifications happens| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.5.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+6. As a user I can book a table.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| (When logged in )Click on the booking link in navbar  | booking page will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.6.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+7. As a user I can't double book nor book a time when someone else have booked a table. The resturant require 15 min span.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Book a time and date that you know is already booked  | Red alert text will show| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.7.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+8. As a user I can see the news for the resturant.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Scroll down to the bottom of home page  | You will see news| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.8.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+9. As a user I can see what time and date the news arrived.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Scroll down to the bottom of home page  | You will see time and date to the left belov the img| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.9.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+10. As a user I can see an image of the dish from the news or another announcement.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Scroll down to the bottom of home page  | You will see an image for every news| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.10.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+11. As a user I can see if my booking went through.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Book a time and date you know is free | Green notification will pop up with text| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.11.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+12. As a user I can see if the time I book the table already was booked.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Book a time and date that you know is already booked  | Red alert text will show| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.12.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+13. As a user I can go and see my booking and cancel or change.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Click on my booking link in navbar  | My booking page will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.13.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+14. As a user I can add the booking to my google calender.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Inside my booking is a wheat colors box, click there and pop up window will appear  | pop up window will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.14.png" alt="A screenshot of when the user use invalid input">
+        <img src="media/manualtest.14.1.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+15. As a user I can cancel my booking.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| In my booking you will se a red button belov your booking, press there  | cancel page will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.15.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+16. As a user I can change my booking.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| In my booking you will se a green button belov your booking, press there  | change page will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.16.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+17. As a user I get notifications about everything I do from change booking so log in.
+**Step** | **Expected Result** | **Actual Result**
+------------ | ------------ | ------------ |
+| Try to log in, logout or book a table  | Notifications will load| Works as expected |
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/manualtest.17.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
 
 ## Bugs
 
