@@ -513,6 +513,7 @@ Performance, best practicees and SEO was tested with lighthouse
 </details><br>
 
 2. As a user I can register on the site
+
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the register link in the navigation bar  | register page will load| Works as expected |
