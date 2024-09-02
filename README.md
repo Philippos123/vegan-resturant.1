@@ -178,7 +178,14 @@ details>
 details>
 <summary> Book a table  </summary>
     <ul>
-        <li><img src="media/wire-hem.png" alt="A screenshot of when the user use invalid input"></li>
+        <li><img src="media/wire book.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+* Sign out 
+details>
+<summary> Logout </summary>
+    <ul>
+        <li><img src="media/wire logout.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
  ## Database 
