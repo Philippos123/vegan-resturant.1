@@ -154,35 +154,35 @@ The site was designed for the user to be familier with the layout and easy to na
 </details><br>
 
 * Login 
-details>
+<details>
 <summary> Login </summary>
     <ul>
         <li><img src="media/wire login.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 * Register 
-details>
+<details>
 <summary> Register </summary>
     <ul>
         <li><img src="media/wire register.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 * My booking
-details>
+<details>
 <summary> My booking </summary>
     <ul>
         <li><img src="media/wire-my-booking.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 * book a table 
-details>
+<details>
 <summary> Book a table  </summary>
     <ul>
         <li><img src="media/wire book.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 * Sign out 
-details>
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/wire logout.png" alt="A screenshot of when the user use invalid input"></li>
@@ -495,64 +495,64 @@ Pep8 Validaton was done through the PEP8 validator from codeinstitute
 Performance, best practicees and SEO was tested with lighthouse
 **Desktop**
 <details>
-<summary> Home </summary>S
+<summary> Home </summary>
     <ul>
         <li><img src="media/Lighthouse.home.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> Login </summary>S
+<summary> Login </summary>
     <ul>
         <li><img src="media/lighthouse.login.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> Register </summary>S
+<summary> Register </summary>
     <ul>
         <li><img src="media/lighthouse.register.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> book a table </summary>S
+<summary> book a table </summary>
     <ul>
         <li><img src="media/lighthouse.book.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> My booking </summary>S
+<summary> My booking </summary>
     <ul>
         <li><img src="media/lighthouse.my-booking.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> Logout </summary>S
+<summary> Logout </summary>
     <ul>
         <li><img src="media/lighthouse.logout.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 **Mobile**
 <details>
-<summary> home </summary>S
+<summary> home </summary>
     <ul>
         <li><img src="media/lighthouse.home.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> Login </summary>S
+<summary> Login </summary>
     <ul>
         <li><img src="media/lighthouse.login.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> Register </summary>S
+<summary> Register </summary>
     <ul>
         <li><img src="media/lighthouse.register.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> Book a table </summary>S
+<summary> Book a table </summary>
     <ul>
         <li><img src="media/lighthouse.book.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> My booking </summary>S
+<summary> My booking </summary>
     <ul>
         <li><img src="media/lighthouse.my-booking.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 <details>
-<summary> Logout </summary>S
+<summary> Logout </summary>
     <ul>
         <li><img src="media/lighthouse.logout-p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
