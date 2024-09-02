@@ -720,5 +720,4 @@ The site was tested on the following devices:
 
 
 ## Credits
-
 Thanks for the feedback i got from my mentor Mo.
