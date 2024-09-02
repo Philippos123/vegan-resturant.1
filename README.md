@@ -454,12 +454,12 @@ Performance, best practicees and SEO was tested with lighthouse
 
 <summary> Login </summary>S
     <ul>
-        <li><img src="media" alt="A screenshot of when the user use invalid input"></li>
+        <li><img src="media/lighthouse.login.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 <summary> Register </summary>S
     <ul>
-        <li><img src="media" alt="A screenshot of when the user use invalid input"></li>
+        <li><img src="media/lighthouse.register.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 <summary> Book a table </summary>S
@@ -469,7 +469,7 @@ Performance, best practicees and SEO was tested with lighthouse
 
 <summary> My booking </summary>S
     <ul>
-        <li><img src="media" alt="A screenshot of when the user use invalid input"></li>
+        <li><img src="media/lighthouse.my-booking.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 <summary> Logout </summary>S
