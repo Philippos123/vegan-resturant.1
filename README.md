@@ -198,7 +198,10 @@ The secound model is the **news_image_path** wich contains the following:
  * JQuery
  #### Validation
  - Code Institute PEP8 Validation
- - Lighthouse 
+ - Lighthouse
+ - Jshint
+ - WC3 Validaotr
+ - Jigsaw W3 Validator
 
  # Features
 
@@ -365,133 +368,50 @@ The W3C markup Validation Service
         <li><img src="media/validator.pp4updatebooking.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
-### Data Models
-
-
-* Dictionaries were used to store user data.
-    * This helped to verify user input when playing the game. 
-* Attributes between functions
-    * With the help of the dictionaries the player could change some part of the stories based on ther prefrence. I could use F-strings to change who the player was in the situation with. 
-
-
-
-
-## Features
-The website has a single page with several features within the mock python terminal. These features are listed below.
-
-### App Features:
-
-<details>
-    <summary>Game Title</summary>
-    <p>This is what the user sees upon loading the site. </p>
+## CSS Validaton
+The W3C Jigsaw CSS Validation
+    <summary> Style.css </summary>
     <ul>
-        <li>
-            <p>Enter name</p>
-        </li>
-        <li>
-            <img src="images/main stroll.png" alt="A screenshot of the main meny y/n feature">
-            <p> User story covered: 1-6 </p>
-        </li>
-        
-
-    
-
+        <li><img src="media/validator.pp4css.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
-<details>
-    <summary>Activites in the Game </summary>
-    <p>This is what the user sees if the user takes the right path in the living city.  </p>
+## Javascript Validation
+Jshin JS Validation 
+    <summary> Style.css </summary>
     <ul>
-        <li>
-            <p>Who do you meet? Women or man? </p>
-        </li>
-        <li>
-            <img src="images/meet who stroll.png" alt="A screenshot of when the user is able to effect the story based on there preference. ">
-            <p> User story covered: 1-6</p>
-        </li>
-        
+        <li><img src="media/validator.pp4js.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-<details>
-    <summary>Activites in the Game </summary>
-    <p>This is what the user sees if the user end up with Mr.Jansson in the cabin and wants to save the side characters.</p>
+
+## PEP8 Validation
+Pep8 Validaton was done through the PEP8 validator from codeinstitute
+
+### Resturant App
+    <summary> Resturant/models </summary>
     <ul>
-        <li>
-            <p>What are you going to do?</p>
-        </li>
-        <li>
-            <img src="images/val stroll.png" alt="A screenshot of when the user must make a choice of what to do.  ">
-            <p> User story covered: 1-6 </p>
-        </li>
-        
+        <li><img src="media/validator.pp4.models.py.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-<details>
-    <summary>Activites in the Game </summary>
-    <p>This is what the user sees if the user add invalid input</p>
+    <summary> Resturant/forms </summary>
     <ul>
-        <li>
-            <p>What are you going to do?</p>
-        </li>
-        <li>
-            <img src="images/wrong input.png" alt="A screenshot of when the user use invalid input">
-            <p> User story covered: 7-9 </p>
-        </li>
-        
+        <li><img src="media/validator.pp4.forms.py1.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
-
-## feature ideas for future development
-In future the website could be further developed and improved to offer more game rules and more diversity. It would be cool to add AI generated images in the future.
-- Add more complex storyline with diffrent outcomes
-- Add img
-- A wider amount of tails. 
-- Add more side characters to interact with 
-
-### Flowchart
-
-A flowchart was created using [Lucidchart](https://lucid.app/) to visualise the logic flow of the game.
-
-<details>
-    <summary>Flowchart</summary>
-    <p>A simpel stroll lucidchart</p>
-    <img src="/images/Flowchart.png" alt="A screenshot of the flowchart of game logic">
+<summary> Resturant/apps.py </summary>
+    <ul>
+        <li><img src="media/validator.pp4.app.py.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
-## Technologies used
-### Languages used
-Python 
-
-### Other tools 
-- Lucidchart was used to create wireframes
-- Git was used for version control
-- Github Was used for saving and storking files.
-- Gitpod Was the IDE used for writing and editing code.
-- Heroku  was used as the hosting platform for the site. 
-
-## Why would you want to play this game? 
-
-A Simple Stroll is a game where you, as the player, control the storyline. You control the choices you make and the people you meet along the way. The game is nerve-wracking, making it the perfect "late-night game" when you are alone on a Saturday night in front of your computer.
-
-
-# Functions
-### Input
-The player will be able to input their character's name, which will follow throughout the entire story. The player will also be able to input the gender and name of characters they meet during the stroll. If the player meets a woman, the story will use the pronoun "she," and if it's a man, it will use "he."
-
-## Attributes 
-- Person_c stands for the person's name.
-- Person_c_g stands for gender.
-- Pronun stands for pronouns. 
-- Username stands for the player´s name.
-
-### Events
-There are a lot of events when the player picks the exciting path. The player will always have the option to go home because that’s reality. Who would like to go for a stroll with no option to turn back for like 5 hours?
-### Variables 
-The people the player meets aren’t static in the game. This makes it important to pass variables further through the game. For example, the variable person_c_g will change a person the player meets from a woman to a man depending on the player's early choices, and their pronouns, of course, are stored in the pronoun variable.
-
-# Testing 
-
-## Validation 
-A Simple Stroll passed the PEP8 checks with no errors, as shown in the image below. The game initially had a lot of PEP8 errors, which have been resolved now. 
-![PEP8](images/PEP8.png)
+<summary> Resturant/urls </summary>
+    <ul>
+        <li><img src="media/validator.pp4.urls.py.png" alt="A screenshot of when the user use invalid input"></li>
+        <p>I wasn't able to fix the E501 because more errors accured when I tried to move around.</p>
+</details><br>
+<summary> Resturant/views </summary>S
+    <ul>
+        <li><img src="media/validator.pp4.views.py.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+<summary> Resturant/admin </summary>S
+    <ul>
+        <li><img src="media/validator.pp4.admin.png" alt="A screenshot of when the user use invalid input"></li>
+        <p>When I tried to cut the line 20 because of a E501 error I got a E128 error in return</p>
+</details><br>
 
 # Manual testing
 
@@ -508,84 +428,9 @@ A Simple Stroll passed the PEP8 checks with no errors, as shown in the image bel
     <img src="images/main stroll.png" alt="A screenshot of the main meny. ">
 </details><br>
 
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 2. Choose path | Two diffrent paths | After you input a valid username you will get two paths to choose between. | Program will go the path the user pick. | Works as expected. |
 
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/choose path.png" alt="A screenshot of the start of the game "><br>
 
-</details><br>
-
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 3. Death function | Death view | When the user die they will come to the Death function where they have an option to play again or leave. | Program will display 'y' for play again or 'n' for leave| Works as expected. |
-
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/death.png" alt="A screenshot of the death function"><br>
-
-</details><br>
-
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 4. Congratulation function | Congrat view |When the user survive, they will see the congrat function | Program will display 'y' for play again or 'n' for leave | Works as expected. |
-
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/congrat.png" alt="A screenshot of congrat function"><br>
-</details><br>
-
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 5. Persons in the story| user input | If the user pick's the correct path, they will be able to create there own characters they meet in the game. | The pronunces changes depending on if the user picks a male of female they meet in the game  | Works as expected. |
-
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/he.png" alt="A screenshot if the user pick a male ."><br>
-    <img src="images/she.png" alt="A screenshot if the user pick a female."><br>
-</details><br>
-
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 6. Forest path | Path  | When the user picks the forest path.| The user ends up at the right path they pick | Works as expected. |
-
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/forest path.png" alt="A screenshot of the forest path"><br>
-</details><br>
-
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 7. City path | other path | When the user picks the city path. | The user ends up at the right path they pick | Works as expected. |
-
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/city path.png" alt="A screenshot of the city path"><br>
-    
-</details><br>
-
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 8. (SITE OWNER)Information | Give information about the game to the user |I started the game to see if I see the information | When the user starts the game, they are going to see information | Works as expected. |
-
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/Information.png" alt="A screenshot of the main menu and information"><br>
-
-</details><br>
-
-|User story|Feature|Test|Expected Result|Actual Result|
-|---|---|---|---|---|
-| 9. (SITE OWNER)Ensure that if the user input invalid symbols it ittirate back or inform the user about it. | Ittirate | Give invalid input | When the user use invalid input they are going to ittirate back | Works as expected. |
-
-<details>
-    <summary>Screenshots</summary>
-    <img src="images/wrong input.png" alt="A screenshot of wrong input"><br>
-
-</details><br>
-
+## Bugs
 
 ## Deployment & Local Development
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
@@ -647,13 +492,6 @@ The site was tested on the following devices:
 
 
 
-### Bugs
-1. I found a bug where i didnt define the "username" on the forest trail wich made the application crash.
-2. When the player added invalid input it became an infinite loop so I hade to make sure that if they added invalid input they were irritated back to that function.
-
-
-
 ## Credits
 
 Thanks for the feedback i got from my mentor Mo.
-Thanks to my Twitch community who tried the game and gave me feedback. 
