@@ -388,9 +388,9 @@ Cover userstorie: 16
 </details><br>
 
 # CRUD
-* Create - You as a user can create a new booking wich you can find in the Booking
-* Read - You as a user can read news posted or read your bookings in the My Bookings 
-* Update - You as a user can update your bookings in the my booking page. Press the green button to change
+* Create - You as a user can create a new booking wich you can find in the Booking. 
+* Read - You as a user can read news posted or read your bookings in the My Bookings.
+* Update - You as a user can update your bookings in the my booking page. Press the green button to change.
 * Delte - You as a user can delete your bookings in the my booking page. Press the red button to change. 
 
 # Validation 
