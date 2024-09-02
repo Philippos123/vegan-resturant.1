@@ -370,6 +370,7 @@ The W3C markup Validation Service
 
 ## CSS Validaton
 The W3C Jigsaw CSS Validation
+<details>
     <summary> Style.css </summary>
     <ul>
         <li><img src="media/validator.pp4css.png" alt="A screenshot of when the user use invalid input"></li>
