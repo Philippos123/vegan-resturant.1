@@ -652,32 +652,42 @@ Performance, best practicees and SEO was tested with lighthouse
 ## Deployment & Local Development
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
 1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
-<img src="images/heroku login.png">
+<img src="heroku-media/heroku login.png">
+
 1. Click on New > Create new app in the top right of the screen.
-<img src="images/new heroku.png">
+<img src="heroku-media/new heroku.png">
+
 1. Add an app name and select location, then click 'create app'.
-<img src="images/create heroku.png">
+<img src="heroku-media/create heroku.png">
+
 1. Under the deploy tab of the next page, select connect to GitHub.
 1. Log in to your GitHub account when prompted.
-<img src="images/depo heroku.png">
+<img src="heroku-media/depo heroku (1).png">
+
 1. Select the repository that you want to be connected to the Heroku app.
-<img src="images/depo this heroku.png">
+<img src="heroku-media/depo this heroku.png">
+
 1. Click on the settings tab.
-<img src="images/setting heroku.png">
+<img src="heroku-media/setting heroku.png">
+
 1. Scroll down to the config vars section, and add 2 config vars:
     * The first key is CREDS and the value here is the creds.json file that was generated for the google sheets API to work properly.
     * The second key is PORT and the Value is 8000
-<img src="images/config heroku.png">
+<img src="heroku-media/config heroku (1).png">
+
 1. Once you have set up the config vars, scroll down to buildpacks (still under the settings tab)
 1. Add the Python and Node.js buildpacks to your app and make sure that when they are displayed, they appear in the order:
     * Python
     * Node.JS
-<img src="images/build pack heroku.png">
+<img src="heroku-media/build pack heroku (1).png">
+
 1. Navigate back to the settings tab.
 1. Select automatic deploys to allow Heroku to build the site with new changes each time changes are pushed to GitHub.
-<img src="images/Auto depo heroku.png">
+<img src="heroku-media/Auto depo heroku (1).png">
+
 1. In the 'manual deploy' section beneath this, make sure the branch selected is 'main' and click deploy branch.
-<img src="images/manual depo.png">
+<img src="heroku-media/manual depo (1).png">
+
 1. The site should now be built and Heroku should provide a url for the built site.
 
 This repository can be forked using the following process:
