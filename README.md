@@ -713,15 +713,13 @@ The website was deployed to [Heroku](https://id.heroku.com/) using the following
 1. Click on the settings tab.
 <img src="heroku-media/setting heroku.png">
 
-1. Scroll down to the config vars section, and add 2 config vars:
-    * The first key is CREDS and the value here is the creds.json file that was generated for the google sheets API to work properly.
-    * The second key is PORT and the Value is 8000
+1. Scroll down to the config vars section and add the configs needed.
+
 <img src="heroku-media/config heroku (1).png">
 
 1. Once you have set up the config vars, scroll down to buildpacks (still under the settings tab)
 1. Add the Python and Node.js buildpacks to your app and make sure that when they are displayed, they appear in the order:
-    * Python
-    * Node.JS
+
 <img src="heroku-media/build pack heroku (1).png">
 
 1. Navigate back to the settings tab.
