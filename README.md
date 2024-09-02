@@ -189,7 +189,14 @@ details>
 </details><br>
 
  ## Database 
- * The database is built with Python and the Django framework with a database from Postgres for the deployed Heroky version. 
+ * The database is built with Python and the Django framework with a database from Postgres for the deployed Heroku version. 
+
+ ### Database diagram 
+<summary> Diagram </summary>
+    <ul>
+        <li><img src="media/databas.pp4.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+ 
 
 ### Models  
 
