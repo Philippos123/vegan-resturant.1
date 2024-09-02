@@ -20,7 +20,6 @@ Swedish dishes is a resturant where you can discover Swedish delights. The websi
 * [Databse](#database)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-    * [App Features](#app-features)
     * [Feature Ideas for future development](#feature-ideas-for-future-development)
 * [Testing](#testing)
     * [Validation](#validation)
@@ -519,7 +518,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Click on the register link in the navigation bar  | register page will load| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Register narvbar </summary>
     <ul>
         <li><img src="media/manualtest.2.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -530,7 +529,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Click on the Login link in the navigation bar  | Login page will load| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Login navbar </summary>
     <ul>
         <li><img src="media/manualtest.3.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -552,7 +551,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | (When logged in ) When you create an action(Login, Logout, book, cancel, change)The user will get notification  | Notifications happens| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Create an instance </summary>
     <ul>
         <li><img src="media/manualtest.5.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -563,7 +562,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | (When logged in )Click on the booking link in navbar  | booking page will load| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Booking(logged in) </summary>
     <ul>
         <li><img src="media/manualtest.6.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -574,7 +573,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Book a time and date that you know is already booked  | Red alert text will show| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Error message </summary>
     <ul>
         <li><img src="media/manualtest.7.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -585,7 +584,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Scroll down to the bottom of home page  | You will see news| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> News </summary>
     <ul>
         <li><img src="media/manualtest.8.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -596,7 +595,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Scroll down to the bottom of home page  | You will see time and date to the left belov the img| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Bottom home page </summary>
     <ul>
         <li><img src="media/manualtest.9.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -607,7 +606,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Scroll down to the bottom of home page  | You will see an image for every news| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Bottom home page </summary>
     <ul>
         <li><img src="media/manualtest.10.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -618,7 +617,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Book a time and date you know is free | Green notification will pop up with text| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Book a free time </summary>
     <ul>
         <li><img src="media/manualtest.11.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -629,7 +628,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Book a time and date that you know is already booked  | Red alert text will show| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Book time </summary>
     <ul>
         <li><img src="media/manualtest.12.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -640,7 +639,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Click on my booking link in navbar  | My booking page will load| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Booking </summary>
     <ul>
         <li><img src="media/manualtest.13.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -651,7 +650,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | Inside my booking is a wheat colors box, click there and pop up window will appear  | pop up window will load| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Wheat box </summary>
     <ul>
         <li><img src="media/manualtest.14.png" alt="A screenshot of when the user use invalid input">
         <img src="media/manualtest.14.1.png" alt="A screenshot of when the user use invalid input"></li>
@@ -663,7 +662,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | In my booking you will se a red button belov your booking, press there  | cancel page will load| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Red button </summary>
     <ul>
         <li><img src="media/manualtest.15.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -674,7 +673,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ------------ | ------------ | ------------ |
 | In my booking you will se a green button belov your booking, press there  | change page will load| Works as expected |
 <details>
-<summary> Logout </summary>
+<summary> Green button </summary>
     <ul>
         <li><img src="media/manualtest.16.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
@@ -687,7 +686,7 @@ Performance, best practicees and SEO was tested with lighthouse
 <details>
 <summary> Logout </summary>
     <ul>
-        <li><img src="media/manualtest.17.png" alt="A screenshot of when the user use invalid input"></li>
+        <li><img src="media/manualtest.17.png" alt="A screenshot of logut test"></li>
 </details><br>
 
 ## Bugs
@@ -718,10 +717,6 @@ The website was deployed to [Heroku](https://id.heroku.com/) using the following
 
 <img src="heroku-media/config heroku (1).png">
 
-1. Once you have set up the config vars, scroll down to buildpacks (still under the settings tab)
-1. Add the Python and Node.js buildpacks to your app and make sure that when they are displayed, they appear in the order:
-
-<img src="heroku-media/build pack heroku (1).png">
 
 1. Navigate back to the settings tab.
 1. Select automatic deploys to allow Heroku to build the site with new changes each time changes are pushed to GitHub.
@@ -760,6 +755,12 @@ The site was tested on the following devices:
 * Macbook M1 2018(macOS Sonoma 14.3)
 
 ## Bugs
+1. I came across one bug with the add to google calender link. I wasn't able to f-string the date and time. 
+2. Another bug I run into was with my javascript in the bookingmodal wich gave me. 
+    at Ni._initializeBackDrop (modal.js:158:39)
+    at new Ni (modal.js:69:27)
+    at HTMLDocument.<anonymous> (script.js:5:19
+The problem was that the model was being called reagrdless of wether the model exists in the DOM. The solution was a If(modalElement) function. 
 
 
 
