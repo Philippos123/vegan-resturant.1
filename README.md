@@ -759,6 +759,14 @@ Performance, best practicees and SEO was tested with lighthouse
         <li><img src="media/manualtest.17.png" alt="A screenshot of logut test"></li>
 </details><br>
 
+### Kanban
+<details>
+<summary> Kanboard </summary>
+    <ul>
+        <li><img src="media/Kanboard pp.4.png" alt="A screenshot of logut test"></li>
+</details><br>
+
+
 ## Bugs
 
 ## Deployment & Local Development
