@@ -377,7 +377,8 @@ The W3C Jigsaw CSS Validation
 </details><br>
 
 ## Javascript Validation
-Jshin JS Validation 
+Jshin JS Validation
+<details>
     <summary> Style.css </summary>
     <ul>
         <li><img src="media/validator.pp4js.png" alt="A screenshot of when the user use invalid input"></li>
@@ -387,27 +388,33 @@ Jshin JS Validation
 Pep8 Validaton was done through the PEP8 validator from codeinstitute
 
 ### Resturant App
+<details>
     <summary> Resturant/models </summary>
     <ul>
         <li><img src="media/validator.pp4.models.py.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
+<details>
     <summary> Resturant/forms </summary>
     <ul>
         <li><img src="media/validator.pp4.forms.py1.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
+<details>
 <summary> Resturant/apps.py </summary>
     <ul>
         <li><img src="media/validator.pp4.app.py.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
+<details>
 <summary> Resturant/urls </summary>
     <ul>
         <li><img src="media/validator.pp4.urls.py.png" alt="A screenshot of when the user use invalid input"></li>
         <p>I wasn't able to fix the E501 because more errors accured when I tried to move around.</p>
 </details><br>
+<details>
 <summary> Resturant/views </summary>S
     <ul>
         <li><img src="media/validator.pp4.views.py.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
+<details>
 <summary> Resturant/admin </summary>S
     <ul>
         <li><img src="media/validator.pp4.admin.png" alt="A screenshot of when the user use invalid input"></li>
@@ -417,62 +424,64 @@ Pep8 Validaton was done through the PEP8 validator from codeinstitute
 ## Lighthouse
 Performance, best practicees and SEO was tested with lighthouse
 **Desktop**
+<details>
 <summary> Home </summary>S
     <ul>
         <li><img src="media/Lighthouse.home.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> Login </summary>S
     <ul>
         <li><img src="media/lighthouse.login.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> Register </summary>S
     <ul>
         <li><img src="media/lighthouse.register.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> book a table </summary>S
     <ul>
         <li><img src="media/lighthouse.book.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> My booking </summary>S
     <ul>
         <li><img src="media/lighthouse.my-booking.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> Logout </summary>S
     <ul>
         <li><img src="media/lighthouse.logout.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
 
 **Mobile**
+<details>
 <summary> home </summary>S
     <ul>
         <li><img src="media/lighthouse.home.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> Login </summary>S
     <ul>
         <li><img src="media/lighthouse.login.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> Register </summary>S
     <ul>
         <li><img src="media/lighthouse.register.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> Book a table </summary>S
     <ul>
         <li><img src="media/lighthouse.book.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> My booking </summary>S
     <ul>
         <li><img src="media/lighthouse.my-booking.p.png" alt="A screenshot of when the user use invalid input"></li>
 </details><br>
-
+<details>
 <summary> Logout </summary>S
     <ul>
         <li><img src="media/lighthouse.logout-p.png" alt="A screenshot of when the user use invalid input"></li>
@@ -497,7 +506,7 @@ Performance, best practicees and SEO was tested with lighthouse
 | Click on the 'Book' link in the navigation bar | Booking form will load| Works as expected |
 | Click on the 'My Bookings' link in the navigation bar | Users booking will load and show| Works as expected |
 | Click on the 'Logout' link in the navigation bar | Logout page will load| Works as expected |
-
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/lighthouse.logout-p.png" alt="A screenshot of when the user use invalid input"></li>
@@ -507,6 +516,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the register link in the navigation bar  | register page will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.2.png" alt="A screenshot of when the user use invalid input"></li>
@@ -516,6 +526,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on the Login link in the navigation bar  | Login page will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.3.png" alt="A screenshot of when the user use invalid input"></li>
@@ -525,6 +536,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | (When logged in ) Click on the logut link in navigationbar | logout page will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.4.png" alt="A screenshot of when the user use invalid input"></li>
@@ -534,6 +546,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | (When logged in ) When you create an action(Login, Logout, book, cancel, change)The user will get notification  | Notifications happens| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.5.png" alt="A screenshot of when the user use invalid input"></li>
@@ -543,6 +556,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | (When logged in )Click on the booking link in navbar  | booking page will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.6.png" alt="A screenshot of when the user use invalid input"></li>
@@ -552,6 +566,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Book a time and date that you know is already booked  | Red alert text will show| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.7.png" alt="A screenshot of when the user use invalid input"></li>
@@ -561,6 +576,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Scroll down to the bottom of home page  | You will see news| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.8.png" alt="A screenshot of when the user use invalid input"></li>
@@ -570,6 +586,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Scroll down to the bottom of home page  | You will see time and date to the left belov the img| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.9.png" alt="A screenshot of when the user use invalid input"></li>
@@ -579,6 +596,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Scroll down to the bottom of home page  | You will see an image for every news| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.10.png" alt="A screenshot of when the user use invalid input"></li>
@@ -588,6 +606,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Book a time and date you know is free | Green notification will pop up with text| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.11.png" alt="A screenshot of when the user use invalid input"></li>
@@ -597,6 +616,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Book a time and date that you know is already booked  | Red alert text will show| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.12.png" alt="A screenshot of when the user use invalid input"></li>
@@ -606,6 +626,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Click on my booking link in navbar  | My booking page will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.13.png" alt="A screenshot of when the user use invalid input"></li>
@@ -615,6 +636,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Inside my booking is a wheat colors box, click there and pop up window will appear  | pop up window will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.14.png" alt="A screenshot of when the user use invalid input">
@@ -625,6 +647,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | In my booking you will se a red button belov your booking, press there  | cancel page will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.15.png" alt="A screenshot of when the user use invalid input"></li>
@@ -634,6 +657,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | In my booking you will se a green button belov your booking, press there  | change page will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.16.png" alt="A screenshot of when the user use invalid input"></li>
@@ -643,6 +667,7 @@ Performance, best practicees and SEO was tested with lighthouse
 **Step** | **Expected Result** | **Actual Result**
 ------------ | ------------ | ------------ |
 | Try to log in, logout or book a table  | Notifications will load| Works as expected |
+<details>
 <summary> Logout </summary>
     <ul>
         <li><img src="media/manualtest.17.png" alt="A screenshot of when the user use invalid input"></li>
@@ -653,6 +678,7 @@ Performance, best practicees and SEO was tested with lighthouse
 ## Deployment & Local Development
 The website was deployed to [Heroku](https://id.heroku.com/) using the following process:
 1. Login or create an account at [Heroku](https://dashboard.heroku.com/)
+
 <img src="heroku-media/heroku login.png">
 
 1. Click on New > Create new app in the top right of the screen.
