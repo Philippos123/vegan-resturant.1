@@ -142,7 +142,44 @@ The site was designed for the user to be familier with the layout and easy to na
  - Booking page is the page where you as a logged in user can book a table. 
  - My booking is the page where you can see your bookings and add them to your google calender. 
  - Cancel booking is the page where you as a logged in user can cancel your booking
- - Update booking is the page where you as a logged in user can change the time, date and amout of guests of your booking. 
+ - Update booking is the page where you as a logged in user can change the time, date and amout of guests of your booking.
+
+ ### Wireframes
+
+ * HomePage
+ <details>
+<summary> Homepage </summary>
+    <ul>
+        <li><img src="media/wire-hem.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+* Login 
+details>
+<summary> Login </summary>
+    <ul>
+        <li><img src="media/wire login.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+* Register 
+details>
+<summary> Register </summary>
+    <ul>
+        <li><img src="media/wire register.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+* My booking
+details>
+<summary> My booking </summary>
+    <ul>
+        <li><img src="media/wire-my-booking.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
+
+* book a table 
+details>
+<summary> Book a table  </summary>
+    <ul>
+        <li><img src="media/wire-hem.png" alt="A screenshot of when the user use invalid input"></li>
+</details><br>
 
  ## Database 
  * The database is built with Python and the Django framework with a database from Postgres for the deployed Heroky version. 
